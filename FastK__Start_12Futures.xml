@@ -1,0 +1,2991 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NinjaTrader>
+  <NTWindows>
+    <Chart-4bd725b003f7477a8ac3079af58eae2e>
+      <Class Assembly="NinjaTrader.Gui">NinjaTrader.Gui.Chart.Chart</Class>
+      <WindowState>Normal</WindowState>
+      <Location>1;1</Location>
+      <Size>479;360</Size>
+      <ZOrder>0</ZOrder>
+      <Topmost>False</Topmost>
+      <TraderWidth>200</TraderWidth>
+      <TabControl>
+        <SelectedIndex>0</SelectedIndex>
+        <Tab-ae3857324d704a45b982ba7da24b34c2>
+          <InstrumentLink>0</InstrumentLink>
+          <IntervalLink>0</IntervalLink>
+          <DataSeries>
+            <BarsProperties>
+              <BarsProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <BarsPeriod>
+                  <BarsPeriodTypeSerialize>5</BarsPeriodTypeSerialize>
+                  <BaseBarsPeriodType>Minute</BaseBarsPeriodType>
+                  <BaseBarsPeriodValue>1</BaseBarsPeriodValue>
+                  <VolumetricDeltaType>BidAsk</VolumetricDeltaType>
+                  <MarketDataType>Last</MarketDataType>
+                  <PointAndFigurePriceType>Close</PointAndFigurePriceType>
+                  <ReversalType>Tick</ReversalType>
+                  <Value>1</Value>
+                  <Value2>1</Value2>
+                </BarsPeriod>
+                <RangeType>Days</RangeType>
+                <BarsBack>50</BarsBack>
+                <DaysBack>1365</DaysBack>
+                <From>2020-09-13T00:00:00</From>
+                <IsStableSession>true</IsStableSession>
+                <IsTickReplay>false</IsTickReplay>
+                <To>2099-12-01T00:00:00</To>
+                <TradingHoursSerializable />
+                <AutoScale>true</AutoScale>
+                <CenterPriceOnScale>false</CenterPriceOnScale>
+                <DisplayInDataBox>true</DisplayInDataBox>
+                <Label>NQ 09-22</Label>
+                <MaxSerialized>0</MaxSerialized>
+                <MinSerialized>0</MinSerialized>
+                <Panel>0</Panel>
+                <PriceMarker>
+                  <BackgroundSerialize>DEFAULT</BackgroundSerialize>
+                  <IsVisible>true</IsVisible>
+                </PriceMarker>
+                <ShowGlobalDrawObjects>true</ShowGlobalDrawObjects>
+                <ScaleJustification>Right</ScaleJustification>
+                <TradingHoursVisibility>AllSessions</TradingHoursVisibility>
+                <TradingHoursBreakPenSerialize>&lt;Pen Brush="#FF2D2D2F" Thickness="1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</TradingHoursBreakPenSerialize>
+                <LongExecutionBrushSerialize>DEFAULT</LongExecutionBrushSerialize>
+                <PlotExecutions>DoNotPlot</PlotExecutions>
+                <PositionPenLoserSerialize>DEFAULT</PositionPenLoserSerialize>
+                <PositionPenWinnerSerialize>DEFAULT</PositionPenWinnerSerialize>
+                <ShortExecutionBrushSerialize>DEFAULT</ShortExecutionBrushSerialize>
+                <BarsSeriesId>38f7b7a653964e0c9d396af896429311</BarsSeriesId>
+                <Id>84e7dd1aba7c4845b34ba6d19cbfffc1</Id>
+                <Instrument>NQ 09-22</Instrument>
+                <IsLinked>true</IsLinked>
+                <IsPrimarySeries>true</IsPrimarySeries>
+                <ZOrder>1</ZOrder>
+              </BarsProperties>
+              <ChartStyles>
+                <ChartStyle>
+                  <CandleStyle>
+                    <CandleStyle xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                      <IsVisible>true</IsVisible>
+                      <BarWidth>1.3039672715258432</BarWidth>
+                      <ChartStyleTypeSerialize>1</ChartStyleTypeSerialize>
+                      <DownBrushSerialize>DEFAULT</DownBrushSerialize>
+                      <UpBrushSerialize>DEFAULT</UpBrushSerialize>
+                      <StrokeSerialize>DEFAULT</StrokeSerialize>
+                      <Stroke2Serialize>DEFAULT</Stroke2Serialize>
+                    </CandleStyle>
+                  </CandleStyle>
+                </ChartStyle>
+              </ChartStyles>
+            </BarsProperties>
+          </DataSeries>
+          <Strategies />
+          <Indicators />
+          <CrosshairType>Local</CrosshairType>
+          <StayInDrawMode>False</StayInDrawMode>
+          <Properties>
+            <ChartControlProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+              <AlwaysOnTop>false</AlwaysOnTop>
+              <AreTabsVisible>true</AreTabsVisible>
+              <AllowSelectionDragging>true</AllowSelectionDragging>
+              <EquidistantBarSpacing>true</EquidistantBarSpacing>
+              <LabelFont>
+                <Bold>false</Bold>
+                <FamilySerialize>Arial</FamilySerialize>
+                <Italic>false</Italic>
+                <Size>11</Size>
+              </LabelFont>
+              <BarDistance>4.346555</BarDistance>
+              <BarMarginRightUser>8</BarMarginRightUser>
+              <ChartTraderVisibility>Collapsed</ChartTraderVisibility>
+              <ShowDateRange>false</ShowDateRange>
+              <ShowScrollBar>true</ShowScrollBar>
+              <SnapMode>Bar</SnapMode>
+              <TabName>@INSTRUMENT_FULL</TabName>
+              <LoadBackgroundImage>false</LoadBackgroundImage>
+              <BackgroundImageStretch>Fill</BackgroundImageStretch>
+              <ChartBackgroundSerialize>DEFAULT</ChartBackgroundSerialize>
+              <ChartTextSerialize>DEFAULT</ChartTextSerialize>
+              <CrosshairLabelBackgroundSerialize>DEFAULT</CrosshairLabelBackgroundSerialize>
+              <InactivePriceMarkersBrushSerialize>DEFAULT</InactivePriceMarkersBrushSerialize>
+              <AreHGridLinesVisible>true</AreHGridLinesVisible>
+              <AreVGridLinesVisible>true</AreVGridLinesVisible>
+              <AxisPenSerialize>DEFAULT</AxisPenSerialize>
+              <CrosshairPen>DEFAULT</CrosshairPen>
+              <CrosshairIsLocked>false</CrosshairIsLocked>
+              <CrosshairCrosshairType>Local</CrosshairCrosshairType>
+              <CrosshairDrawCursorOnly>false</CrosshairDrawCursorOnly>
+              <GridLineHPenSerialize>DEFAULT</GridLineHPenSerialize>
+              <GridLineVPenSerialize>DEFAULT</GridLineVPenSerialize>
+              <PanelSplitterPenSerialize>DEFAULT</PanelSplitterPenSerialize>
+            </ChartControlProperties>
+          </Properties>
+          <ChartPanels>
+            <ChartPanel>
+              <Height>250</Height>
+              <HoldChartTraderOrders>false</HoldChartTraderOrders>
+              <IsMaximized>false</IsMaximized>
+              <Right>
+                <ChartScaleProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <YAxisRangeType>Automatic</YAxisRangeType>
+                  <AutoScaleDateRangeType>ScreenDateRange</AutoScaleDateRangeType>
+                  <HorizontalGridlinesCalculation>Automatic</HorizontalGridlinesCalculation>
+                  <HorizontalGridlinesIntervalType>Points</HorizontalGridlinesIntervalType>
+                  <HorizontalGridlinesInterval>0</HorizontalGridlinesInterval>
+                  <AutoScaleMarginType>Percent</AutoScaleMarginType>
+                  <AutoScaleMarginLower>6</AutoScaleMarginLower>
+                  <AutoScaleMarginUpper>6</AutoScaleMarginUpper>
+                  <YAxisScalingType>Linear</YAxisScalingType>
+                  <FixedScaleMaxSerialize>15303.5</FixedScaleMaxSerialize>
+                  <FixedScaleMinSerialize>11269.75</FixedScaleMinSerialize>
+                </ChartScaleProperties>
+              </Right>
+              <Left>
+                <ChartScaleProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <YAxisRangeType>Automatic</YAxisRangeType>
+                  <AutoScaleDateRangeType>ScreenDateRange</AutoScaleDateRangeType>
+                  <HorizontalGridlinesCalculation>Automatic</HorizontalGridlinesCalculation>
+                  <HorizontalGridlinesIntervalType>Points</HorizontalGridlinesIntervalType>
+                  <HorizontalGridlinesInterval>0</HorizontalGridlinesInterval>
+                  <AutoScaleMarginType>Percent</AutoScaleMarginType>
+                  <AutoScaleMarginLower>6</AutoScaleMarginLower>
+                  <AutoScaleMarginUpper>6</AutoScaleMarginUpper>
+                  <YAxisScalingType>Linear</YAxisScalingType>
+                  <FixedScaleMaxSerialize>0</FixedScaleMaxSerialize>
+                  <FixedScaleMinSerialize>0</FixedScaleMinSerialize>
+                </ChartScaleProperties>
+              </Left>
+              <Overlay>
+                <ChartScaleProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <YAxisRangeType>Automatic</YAxisRangeType>
+                  <AutoScaleDateRangeType>ScreenDateRange</AutoScaleDateRangeType>
+                  <HorizontalGridlinesCalculation>Automatic</HorizontalGridlinesCalculation>
+                  <HorizontalGridlinesIntervalType>Points</HorizontalGridlinesIntervalType>
+                  <HorizontalGridlinesInterval>0</HorizontalGridlinesInterval>
+                  <AutoScaleMarginType>Percent</AutoScaleMarginType>
+                  <AutoScaleMarginLower>6</AutoScaleMarginLower>
+                  <AutoScaleMarginUpper>6</AutoScaleMarginUpper>
+                  <YAxisScalingType>Linear</YAxisScalingType>
+                  <FixedScaleMaxSerialize>0</FixedScaleMaxSerialize>
+                  <FixedScaleMinSerialize>0</FixedScaleMinSerialize>
+                </ChartScaleProperties>
+              </Overlay>
+            </ChartPanel>
+          </ChartPanels>
+          <DrawingTools>
+            <Line xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+              <IsVisible>true</IsVisible>
+              <IsAutoScale>false</IsAutoScale>
+              <MaxValue>-1.7976931348623157E+308</MaxValue>
+              <MinValue>1.7976931348623157E+308</MinValue>
+              <ZOrder>30004</ZOrder>
+              <AttachedTo>
+                <ChartObjectSerialize>ChartBars</ChartObjectSerialize>
+                <InstrumentSerialize>NQ 09-22</InstrumentSerialize>
+              </AttachedTo>
+              <ScaleJustification>Right</ScaleJustification>
+              <DrawingState>Normal</DrawingState>
+              <DisplayOnChartsMenus>true</DisplayOnChartsMenus>
+              <GlobalLastSeenSerialize>0</GlobalLastSeenSerialize>
+              <GlobalWorkspace>2-RATIOS</GlobalWorkspace>
+              <Id>2f37ac58ac064fa686de2cda99d5283b</Id>
+              <IsLocked>false</IsLocked>
+              <PanelIndex>0</PanelIndex>
+              <Tag>Line 17</Tag>
+              <ZOrderType>Normal</ZOrderType>
+              <EndAnchor>
+                <SlotIndex>856.52898550724638</SlotIndex>
+                <DisplayName>End</DisplayName>
+                <IsBrowsable>true</IsBrowsable>
+                <Time>2022-01-13T12:10:00</Time>
+                <Price>15909.954877049178</Price>
+              </EndAnchor>
+              <StartAnchor>
+                <SlotIndex>856.50724637681162</SlotIndex>
+                <DisplayName>Start</DisplayName>
+                <IsBrowsable>true</IsBrowsable>
+                <Time>2022-01-13T11:40:00</Time>
+                <Price>15951.055286885246</Price>
+              </StartAnchor>
+              <Stroke>
+                <IsOpacityVisible>true</IsOpacityVisible>
+                <BrushSerialize>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF6495ED&lt;/SolidColorBrush&gt;</BrushSerialize>
+                <DashStyleHelper>Solid</DashStyleHelper>
+                <Opacity>100</Opacity>
+                <Width>2</Width>
+              </Stroke>
+              <FullTypeName>NinjaTrader.NinjaScript.DrawingTools.Line</FullTypeName>
+              <IsGlobalDrawingObjectDefault>false</IsGlobalDrawingObjectDefault>
+              <IsOwnerVisible>true</IsOwnerVisible>
+            </Line>
+          </DrawingTools>
+          <ChartAlerts />
+          <TabName>@INSTRUMENT_FULL</TabName>
+          <Type>ChartTab</Type>
+        </Tab-ae3857324d704a45b982ba7da24b34c2>
+      </TabControl>
+      <ChartTrader>
+        <Account>Sim101</Account>
+        <ATM></ATM>
+        <Instrument>NQ 09-22</Instrument>
+        <Quantity>1</Quantity>
+        <TIF>Day</TIF>
+        <Properties>
+          <ChartTraderProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <AtmStrategySelectionMode>SelectActiveAtmStrategyOnOrderSubmission</AtmStrategySelectionMode>
+            <AutoScale>true</AutoScale>
+            <OrderDisplayBarLength>25</OrderDisplayBarLength>
+            <PnLDisplayUnit>Points</PnLDisplayUnit>
+            <QuantityModificationForStocks>IncreaseQuantity</QuantityModificationForStocks>
+            <ScaleQuantity>0</ScaleQuantity>
+            <ShowRealizedPnLWhenFlat>false</ShowRealizedPnLWhenFlat>
+            <SimulatedOrderVolumeTrigger>0</SimulatedOrderVolumeTrigger>
+            <StopLimitOffsetEnabled>false</StopLimitOffsetEnabled>
+            <StopLimitOffsetValue>0</StopLimitOffsetValue>
+            <ActionButtonsBackgroundSerialize>DEFAULT</ActionButtonsBackgroundSerialize>
+            <BuyButtonsBackgroundSerialize>DEFAULT</BuyButtonsBackgroundSerialize>
+            <SellButtonsBackgroundSerialize>DEFAULT</SellButtonsBackgroundSerialize>
+            <LimitSerialize>&lt;Pen Brush="#FF00FFFF" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</LimitSerialize>
+            <MitSerialize>&lt;Pen Brush="#FF00FF7F" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</MitSerialize>
+            <PositionEntryPriceSerialize>&lt;Pen Brush="#FFDEB887" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</PositionEntryPriceSerialize>
+            <ProfitTargetSerialize>&lt;Pen Brush="#FF00FF00" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</ProfitTargetSerialize>
+            <StopLimitSerialize>&lt;Pen Brush="#FFEE82EE" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</StopLimitSerialize>
+            <StopLossSerialize>&lt;Pen Brush="#FFFF0000" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</StopLossSerialize>
+            <StopMarketSerialize>&lt;Pen Brush="#FFFFC0CB" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</StopMarketSerialize>
+          </ChartTraderProperties>
+        </Properties>
+      </ChartTrader>
+    </Chart-4bd725b003f7477a8ac3079af58eae2e>
+    <Chart-46c58ac2112b48e2a720ed9e404db685>
+      <Class Assembly="NinjaTrader.Gui">NinjaTrader.Gui.Chart.Chart</Class>
+      <WindowState>Normal</WindowState>
+      <Location>967;1</Location>
+      <Size>486;360</Size>
+      <ZOrder>1</ZOrder>
+      <Topmost>False</Topmost>
+      <TraderWidth>200</TraderWidth>
+      <TabControl>
+        <SelectedIndex>0</SelectedIndex>
+        <Tab-aade3556b9a5494a8a9ade597dd6a40f>
+          <InstrumentLink>0</InstrumentLink>
+          <IntervalLink>0</IntervalLink>
+          <DataSeries>
+            <BarsProperties>
+              <BarsProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <BarsPeriod>
+                  <BarsPeriodTypeSerialize>5</BarsPeriodTypeSerialize>
+                  <BaseBarsPeriodType>Minute</BaseBarsPeriodType>
+                  <BaseBarsPeriodValue>1</BaseBarsPeriodValue>
+                  <VolumetricDeltaType>BidAsk</VolumetricDeltaType>
+                  <MarketDataType>Last</MarketDataType>
+                  <PointAndFigurePriceType>Close</PointAndFigurePriceType>
+                  <ReversalType>Tick</ReversalType>
+                  <Value>1</Value>
+                  <Value2>1</Value2>
+                </BarsPeriod>
+                <RangeType>Days</RangeType>
+                <BarsBack>50</BarsBack>
+                <DaysBack>365</DaysBack>
+                <From>2020-09-13T00:00:00</From>
+                <IsStableSession>true</IsStableSession>
+                <IsTickReplay>false</IsTickReplay>
+                <To>2099-12-01T00:00:00</To>
+                <TradingHoursSerializable />
+                <AutoScale>true</AutoScale>
+                <CenterPriceOnScale>false</CenterPriceOnScale>
+                <DisplayInDataBox>true</DisplayInDataBox>
+                <Label>YM 09-22</Label>
+                <MaxSerialized>35646</MaxSerialized>
+                <MinSerialized>32061</MinSerialized>
+                <Panel>0</Panel>
+                <PriceMarker>
+                  <BackgroundSerialize>DEFAULT</BackgroundSerialize>
+                  <IsVisible>true</IsVisible>
+                </PriceMarker>
+                <ShowGlobalDrawObjects>true</ShowGlobalDrawObjects>
+                <ScaleJustification>Right</ScaleJustification>
+                <TradingHoursVisibility>AllSessions</TradingHoursVisibility>
+                <TradingHoursBreakPenSerialize>&lt;Pen Brush="#FF2D2D2F" Thickness="1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</TradingHoursBreakPenSerialize>
+                <LongExecutionBrushSerialize>DEFAULT</LongExecutionBrushSerialize>
+                <PlotExecutions>DoNotPlot</PlotExecutions>
+                <PositionPenLoserSerialize>DEFAULT</PositionPenLoserSerialize>
+                <PositionPenWinnerSerialize>DEFAULT</PositionPenWinnerSerialize>
+                <ShortExecutionBrushSerialize>DEFAULT</ShortExecutionBrushSerialize>
+                <BarsSeriesId>e1a0b0ac5b894a4abf1ebf35b7cf9ca6</BarsSeriesId>
+                <Id>e1a0b0ac5b894a4abf1ebf35b7cf9ca6</Id>
+                <Instrument>YM 09-22</Instrument>
+                <IsLinked>true</IsLinked>
+                <IsPrimarySeries>true</IsPrimarySeries>
+                <ZOrder>1</ZOrder>
+              </BarsProperties>
+              <ChartStyles>
+                <ChartStyle>
+                  <CandleStyle>
+                    <CandleStyle xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                      <IsVisible>true</IsVisible>
+                      <BarWidth>1.7745963317756868</BarWidth>
+                      <ChartStyleTypeSerialize>1</ChartStyleTypeSerialize>
+                      <DownBrushSerialize>DEFAULT</DownBrushSerialize>
+                      <UpBrushSerialize>DEFAULT</UpBrushSerialize>
+                      <StrokeSerialize>DEFAULT</StrokeSerialize>
+                      <Stroke2Serialize>DEFAULT</Stroke2Serialize>
+                    </CandleStyle>
+                  </CandleStyle>
+                </ChartStyle>
+              </ChartStyles>
+            </BarsProperties>
+          </DataSeries>
+          <Strategies />
+          <Indicators />
+          <CrosshairType>Local</CrosshairType>
+          <StayInDrawMode>False</StayInDrawMode>
+          <Properties>
+            <ChartControlProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+              <AlwaysOnTop>false</AlwaysOnTop>
+              <AreTabsVisible>true</AreTabsVisible>
+              <AllowSelectionDragging>true</AllowSelectionDragging>
+              <EquidistantBarSpacing>true</EquidistantBarSpacing>
+              <LabelFont>
+                <Bold>false</Bold>
+                <FamilySerialize>Arial</FamilySerialize>
+                <Italic>false</Italic>
+                <Size>11</Size>
+              </LabelFont>
+              <BarDistance>5.91532373</BarDistance>
+              <BarMarginRightUser>8</BarMarginRightUser>
+              <ChartTraderVisibility>Collapsed</ChartTraderVisibility>
+              <ShowDateRange>false</ShowDateRange>
+              <ShowScrollBar>true</ShowScrollBar>
+              <SnapMode>Bar</SnapMode>
+              <TabName>@INSTRUMENT_FULL</TabName>
+              <LoadBackgroundImage>false</LoadBackgroundImage>
+              <BackgroundImageStretch>Fill</BackgroundImageStretch>
+              <ChartBackgroundSerialize>DEFAULT</ChartBackgroundSerialize>
+              <ChartTextSerialize>DEFAULT</ChartTextSerialize>
+              <CrosshairLabelBackgroundSerialize>DEFAULT</CrosshairLabelBackgroundSerialize>
+              <InactivePriceMarkersBrushSerialize>DEFAULT</InactivePriceMarkersBrushSerialize>
+              <AreHGridLinesVisible>true</AreHGridLinesVisible>
+              <AreVGridLinesVisible>true</AreVGridLinesVisible>
+              <AxisPenSerialize>DEFAULT</AxisPenSerialize>
+              <CrosshairPen>DEFAULT</CrosshairPen>
+              <CrosshairIsLocked>false</CrosshairIsLocked>
+              <CrosshairCrosshairType>Local</CrosshairCrosshairType>
+              <CrosshairDrawCursorOnly>false</CrosshairDrawCursorOnly>
+              <GridLineHPenSerialize>DEFAULT</GridLineHPenSerialize>
+              <GridLineVPenSerialize>DEFAULT</GridLineVPenSerialize>
+              <PanelSplitterPenSerialize>DEFAULT</PanelSplitterPenSerialize>
+            </ChartControlProperties>
+          </Properties>
+          <ChartPanels>
+            <ChartPanel>
+              <Height>250</Height>
+              <HoldChartTraderOrders>false</HoldChartTraderOrders>
+              <IsMaximized>false</IsMaximized>
+              <Right>
+                <ChartScaleProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <YAxisRangeType>Automatic</YAxisRangeType>
+                  <AutoScaleDateRangeType>ScreenDateRange</AutoScaleDateRangeType>
+                  <HorizontalGridlinesCalculation>Automatic</HorizontalGridlinesCalculation>
+                  <HorizontalGridlinesIntervalType>Points</HorizontalGridlinesIntervalType>
+                  <HorizontalGridlinesInterval>0</HorizontalGridlinesInterval>
+                  <AutoScaleMarginType>Percent</AutoScaleMarginType>
+                  <AutoScaleMarginLower>6</AutoScaleMarginLower>
+                  <AutoScaleMarginUpper>6</AutoScaleMarginUpper>
+                  <YAxisScalingType>Linear</YAxisScalingType>
+                  <FixedScaleMaxSerialize>35403</FixedScaleMaxSerialize>
+                  <FixedScaleMinSerialize>30225</FixedScaleMinSerialize>
+                </ChartScaleProperties>
+              </Right>
+              <Left>
+                <ChartScaleProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <YAxisRangeType>Automatic</YAxisRangeType>
+                  <AutoScaleDateRangeType>ScreenDateRange</AutoScaleDateRangeType>
+                  <HorizontalGridlinesCalculation>Automatic</HorizontalGridlinesCalculation>
+                  <HorizontalGridlinesIntervalType>Points</HorizontalGridlinesIntervalType>
+                  <HorizontalGridlinesInterval>0</HorizontalGridlinesInterval>
+                  <AutoScaleMarginType>Percent</AutoScaleMarginType>
+                  <AutoScaleMarginLower>6</AutoScaleMarginLower>
+                  <AutoScaleMarginUpper>6</AutoScaleMarginUpper>
+                  <YAxisScalingType>Linear</YAxisScalingType>
+                  <FixedScaleMaxSerialize>0</FixedScaleMaxSerialize>
+                  <FixedScaleMinSerialize>0</FixedScaleMinSerialize>
+                </ChartScaleProperties>
+              </Left>
+              <Overlay>
+                <ChartScaleProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <YAxisRangeType>Automatic</YAxisRangeType>
+                  <AutoScaleDateRangeType>ScreenDateRange</AutoScaleDateRangeType>
+                  <HorizontalGridlinesCalculation>Automatic</HorizontalGridlinesCalculation>
+                  <HorizontalGridlinesIntervalType>Points</HorizontalGridlinesIntervalType>
+                  <HorizontalGridlinesInterval>0</HorizontalGridlinesInterval>
+                  <AutoScaleMarginType>Percent</AutoScaleMarginType>
+                  <AutoScaleMarginLower>6</AutoScaleMarginLower>
+                  <AutoScaleMarginUpper>6</AutoScaleMarginUpper>
+                  <YAxisScalingType>Linear</YAxisScalingType>
+                  <FixedScaleMaxSerialize>0</FixedScaleMaxSerialize>
+                  <FixedScaleMinSerialize>0</FixedScaleMinSerialize>
+                </ChartScaleProperties>
+              </Overlay>
+            </ChartPanel>
+          </ChartPanels>
+          <ChartAlerts />
+          <TabName>@INSTRUMENT_FULL</TabName>
+          <Type>ChartTab</Type>
+        </Tab-aade3556b9a5494a8a9ade597dd6a40f>
+      </TabControl>
+      <ChartTrader>
+        <Account>Sim101</Account>
+        <ATM></ATM>
+        <Instrument>YM 09-22</Instrument>
+        <Quantity>1</Quantity>
+        <TIF>Day</TIF>
+        <Properties>
+          <ChartTraderProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <AtmStrategySelectionMode>SelectActiveAtmStrategyOnOrderSubmission</AtmStrategySelectionMode>
+            <AutoScale>true</AutoScale>
+            <OrderDisplayBarLength>25</OrderDisplayBarLength>
+            <PnLDisplayUnit>Points</PnLDisplayUnit>
+            <QuantityModificationForStocks>IncreaseQuantity</QuantityModificationForStocks>
+            <ScaleQuantity>0</ScaleQuantity>
+            <ShowRealizedPnLWhenFlat>false</ShowRealizedPnLWhenFlat>
+            <SimulatedOrderVolumeTrigger>0</SimulatedOrderVolumeTrigger>
+            <StopLimitOffsetEnabled>false</StopLimitOffsetEnabled>
+            <StopLimitOffsetValue>0</StopLimitOffsetValue>
+            <ActionButtonsBackgroundSerialize>DEFAULT</ActionButtonsBackgroundSerialize>
+            <BuyButtonsBackgroundSerialize>DEFAULT</BuyButtonsBackgroundSerialize>
+            <SellButtonsBackgroundSerialize>DEFAULT</SellButtonsBackgroundSerialize>
+            <LimitSerialize>&lt;Pen Brush="#FF00FFFF" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</LimitSerialize>
+            <MitSerialize>&lt;Pen Brush="#FF00FF7F" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</MitSerialize>
+            <PositionEntryPriceSerialize>&lt;Pen Brush="#FFDEB887" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</PositionEntryPriceSerialize>
+            <ProfitTargetSerialize>&lt;Pen Brush="#FF00FF00" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</ProfitTargetSerialize>
+            <StopLimitSerialize>&lt;Pen Brush="#FFEE82EE" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</StopLimitSerialize>
+            <StopLossSerialize>&lt;Pen Brush="#FFFF0000" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</StopLossSerialize>
+            <StopMarketSerialize>&lt;Pen Brush="#FFFFC0CB" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</StopMarketSerialize>
+          </ChartTraderProperties>
+        </Properties>
+      </ChartTrader>
+    </Chart-46c58ac2112b48e2a720ed9e404db685>
+    <Chart-15c0ed4462d84cc194579ffbde0087db>
+      <Class Assembly="NinjaTrader.Gui">NinjaTrader.Gui.Chart.Chart</Class>
+      <WindowState>Normal</WindowState>
+      <Location>1454;0</Location>
+      <Size>465;361</Size>
+      <ZOrder>2</ZOrder>
+      <Topmost>False</Topmost>
+      <TraderWidth>200</TraderWidth>
+      <TabControl>
+        <SelectedIndex>0</SelectedIndex>
+        <Tab-3c3ded0bb6944f57a3cf4c26dfd04b74>
+          <InstrumentLink>0</InstrumentLink>
+          <IntervalLink>0</IntervalLink>
+          <DataSeries>
+            <BarsProperties>
+              <BarsProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <BarsPeriod>
+                  <BarsPeriodTypeSerialize>5</BarsPeriodTypeSerialize>
+                  <BaseBarsPeriodType>Minute</BaseBarsPeriodType>
+                  <BaseBarsPeriodValue>1</BaseBarsPeriodValue>
+                  <VolumetricDeltaType>BidAsk</VolumetricDeltaType>
+                  <MarketDataType>Last</MarketDataType>
+                  <PointAndFigurePriceType>Close</PointAndFigurePriceType>
+                  <ReversalType>Tick</ReversalType>
+                  <Value>1</Value>
+                  <Value2>1</Value2>
+                </BarsPeriod>
+                <RangeType>Days</RangeType>
+                <BarsBack>50</BarsBack>
+                <DaysBack>365</DaysBack>
+                <From>2021-04-12T00:00:00</From>
+                <IsStableSession>true</IsStableSession>
+                <IsTickReplay>false</IsTickReplay>
+                <To>2099-12-01T00:00:00</To>
+                <TradingHoursSerializable />
+                <AutoScale>true</AutoScale>
+                <CenterPriceOnScale>false</CenterPriceOnScale>
+                <DisplayInDataBox>true</DisplayInDataBox>
+                <Label>RTY 09-22</Label>
+                <MaxSerialized>0</MaxSerialized>
+                <MinSerialized>0</MinSerialized>
+                <Panel>0</Panel>
+                <PriceMarker>
+                  <BackgroundSerialize>DEFAULT</BackgroundSerialize>
+                  <IsVisible>true</IsVisible>
+                </PriceMarker>
+                <ShowGlobalDrawObjects>true</ShowGlobalDrawObjects>
+                <ScaleJustification>Right</ScaleJustification>
+                <TradingHoursVisibility>AllSessions</TradingHoursVisibility>
+                <TradingHoursBreakPenSerialize>&lt;Pen Brush="#FF2D2D2F" Thickness="1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</TradingHoursBreakPenSerialize>
+                <LongExecutionBrushSerialize>DEFAULT</LongExecutionBrushSerialize>
+                <PlotExecutions>TextAndMarker</PlotExecutions>
+                <PositionPenLoserSerialize>DEFAULT</PositionPenLoserSerialize>
+                <PositionPenWinnerSerialize>DEFAULT</PositionPenWinnerSerialize>
+                <ShortExecutionBrushSerialize>DEFAULT</ShortExecutionBrushSerialize>
+                <BarsSeriesId>b118f0e21db34a1cb4e09b5efb2521a4</BarsSeriesId>
+                <Id>b118f0e21db34a1cb4e09b5efb2521a4</Id>
+                <Instrument>RTY 09-22</Instrument>
+                <IsLinked>true</IsLinked>
+                <IsPrimarySeries>true</IsPrimarySeries>
+                <ZOrder>1</ZOrder>
+              </BarsProperties>
+              <ChartStyles>
+                <ChartStyle>
+                  <CandleStyle>
+                    <CandleStyle xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                      <IsVisible>true</IsVisible>
+                      <BarWidth>2.2650318805738849</BarWidth>
+                      <ChartStyleTypeSerialize>1</ChartStyleTypeSerialize>
+                      <DownBrushSerialize>DEFAULT</DownBrushSerialize>
+                      <UpBrushSerialize>DEFAULT</UpBrushSerialize>
+                      <StrokeSerialize>DEFAULT</StrokeSerialize>
+                      <Stroke2Serialize>DEFAULT</Stroke2Serialize>
+                    </CandleStyle>
+                  </CandleStyle>
+                </ChartStyle>
+              </ChartStyles>
+            </BarsProperties>
+          </DataSeries>
+          <Strategies />
+          <Indicators />
+          <CrosshairType>Off</CrosshairType>
+          <StayInDrawMode>False</StayInDrawMode>
+          <Properties>
+            <ChartControlProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+              <AlwaysOnTop>false</AlwaysOnTop>
+              <AreTabsVisible>true</AreTabsVisible>
+              <AllowSelectionDragging>true</AllowSelectionDragging>
+              <EquidistantBarSpacing>true</EquidistantBarSpacing>
+              <LabelFont>
+                <Bold>false</Bold>
+                <FamilySerialize>Arial</FamilySerialize>
+                <Italic>false</Italic>
+                <Size>11</Size>
+              </LabelFont>
+              <BarDistance>7.55010653</BarDistance>
+              <BarMarginRightUser>8</BarMarginRightUser>
+              <ChartTraderVisibility>Collapsed</ChartTraderVisibility>
+              <ShowDateRange>false</ShowDateRange>
+              <ShowScrollBar>true</ShowScrollBar>
+              <SnapMode>Bar</SnapMode>
+              <TabName>@INSTRUMENT_FULL</TabName>
+              <LoadBackgroundImage>false</LoadBackgroundImage>
+              <BackgroundImageStretch>Fill</BackgroundImageStretch>
+              <ChartBackgroundSerialize>DEFAULT</ChartBackgroundSerialize>
+              <ChartTextSerialize>DEFAULT</ChartTextSerialize>
+              <CrosshairLabelBackgroundSerialize>DEFAULT</CrosshairLabelBackgroundSerialize>
+              <InactivePriceMarkersBrushSerialize>DEFAULT</InactivePriceMarkersBrushSerialize>
+              <AreHGridLinesVisible>true</AreHGridLinesVisible>
+              <AreVGridLinesVisible>true</AreVGridLinesVisible>
+              <AxisPenSerialize>DEFAULT</AxisPenSerialize>
+              <CrosshairPen>DEFAULT</CrosshairPen>
+              <CrosshairIsLocked>false</CrosshairIsLocked>
+              <CrosshairCrosshairType>Off</CrosshairCrosshairType>
+              <CrosshairDrawCursorOnly>false</CrosshairDrawCursorOnly>
+              <GridLineHPenSerialize>DEFAULT</GridLineHPenSerialize>
+              <GridLineVPenSerialize>DEFAULT</GridLineVPenSerialize>
+              <PanelSplitterPenSerialize>DEFAULT</PanelSplitterPenSerialize>
+            </ChartControlProperties>
+          </Properties>
+          <ChartPanels>
+            <ChartPanel>
+              <Height>251</Height>
+              <HoldChartTraderOrders>false</HoldChartTraderOrders>
+              <IsMaximized>false</IsMaximized>
+              <Right>
+                <ChartScaleProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <YAxisRangeType>Automatic</YAxisRangeType>
+                  <AutoScaleDateRangeType>ScreenDateRange</AutoScaleDateRangeType>
+                  <HorizontalGridlinesCalculation>Automatic</HorizontalGridlinesCalculation>
+                  <HorizontalGridlinesIntervalType>Points</HorizontalGridlinesIntervalType>
+                  <HorizontalGridlinesInterval>0</HorizontalGridlinesInterval>
+                  <AutoScaleMarginType>Percent</AutoScaleMarginType>
+                  <AutoScaleMarginLower>6</AutoScaleMarginLower>
+                  <AutoScaleMarginUpper>6</AutoScaleMarginUpper>
+                  <YAxisScalingType>Linear</YAxisScalingType>
+                  <FixedScaleMaxSerialize>2108</FixedScaleMaxSerialize>
+                  <FixedScaleMinSerialize>1698.3999999999999</FixedScaleMinSerialize>
+                </ChartScaleProperties>
+              </Right>
+              <Left>
+                <ChartScaleProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <YAxisRangeType>Automatic</YAxisRangeType>
+                  <AutoScaleDateRangeType>ScreenDateRange</AutoScaleDateRangeType>
+                  <HorizontalGridlinesCalculation>Automatic</HorizontalGridlinesCalculation>
+                  <HorizontalGridlinesIntervalType>Points</HorizontalGridlinesIntervalType>
+                  <HorizontalGridlinesInterval>0</HorizontalGridlinesInterval>
+                  <AutoScaleMarginType>Percent</AutoScaleMarginType>
+                  <AutoScaleMarginLower>6</AutoScaleMarginLower>
+                  <AutoScaleMarginUpper>6</AutoScaleMarginUpper>
+                  <YAxisScalingType>Linear</YAxisScalingType>
+                  <FixedScaleMaxSerialize>0</FixedScaleMaxSerialize>
+                  <FixedScaleMinSerialize>0</FixedScaleMinSerialize>
+                </ChartScaleProperties>
+              </Left>
+              <Overlay>
+                <ChartScaleProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <YAxisRangeType>Automatic</YAxisRangeType>
+                  <AutoScaleDateRangeType>ScreenDateRange</AutoScaleDateRangeType>
+                  <HorizontalGridlinesCalculation>Automatic</HorizontalGridlinesCalculation>
+                  <HorizontalGridlinesIntervalType>Points</HorizontalGridlinesIntervalType>
+                  <HorizontalGridlinesInterval>0</HorizontalGridlinesInterval>
+                  <AutoScaleMarginType>Percent</AutoScaleMarginType>
+                  <AutoScaleMarginLower>6</AutoScaleMarginLower>
+                  <AutoScaleMarginUpper>6</AutoScaleMarginUpper>
+                  <YAxisScalingType>Linear</YAxisScalingType>
+                  <FixedScaleMaxSerialize>0</FixedScaleMaxSerialize>
+                  <FixedScaleMinSerialize>0</FixedScaleMinSerialize>
+                </ChartScaleProperties>
+              </Overlay>
+            </ChartPanel>
+          </ChartPanels>
+          <ChartAlerts />
+          <TabName>@INSTRUMENT_FULL</TabName>
+          <Type>ChartTab</Type>
+        </Tab-3c3ded0bb6944f57a3cf4c26dfd04b74>
+      </TabControl>
+      <ChartTrader>
+        <Account>Sim101</Account>
+        <ATM></ATM>
+        <Instrument>RTY 09-22</Instrument>
+        <Quantity>1</Quantity>
+        <TIF>Day</TIF>
+        <Properties>
+          <ChartTraderProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <AtmStrategySelectionMode>SelectActiveAtmStrategyOnOrderSubmission</AtmStrategySelectionMode>
+            <AutoScale>true</AutoScale>
+            <OrderDisplayBarLength>25</OrderDisplayBarLength>
+            <PnLDisplayUnit>Points</PnLDisplayUnit>
+            <QuantityModificationForStocks>IncreaseQuantity</QuantityModificationForStocks>
+            <ScaleQuantity>0</ScaleQuantity>
+            <ShowRealizedPnLWhenFlat>false</ShowRealizedPnLWhenFlat>
+            <SimulatedOrderVolumeTrigger>0</SimulatedOrderVolumeTrigger>
+            <StopLimitOffsetEnabled>false</StopLimitOffsetEnabled>
+            <StopLimitOffsetValue>0</StopLimitOffsetValue>
+            <ActionButtonsBackgroundSerialize>DEFAULT</ActionButtonsBackgroundSerialize>
+            <BuyButtonsBackgroundSerialize>DEFAULT</BuyButtonsBackgroundSerialize>
+            <SellButtonsBackgroundSerialize>DEFAULT</SellButtonsBackgroundSerialize>
+            <LimitSerialize>&lt;Pen Brush="#FF00FFFF" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</LimitSerialize>
+            <MitSerialize>&lt;Pen Brush="#FF00FF7F" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</MitSerialize>
+            <PositionEntryPriceSerialize>&lt;Pen Brush="#FFDEB887" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</PositionEntryPriceSerialize>
+            <ProfitTargetSerialize>&lt;Pen Brush="#FF00FF00" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</ProfitTargetSerialize>
+            <StopLimitSerialize>&lt;Pen Brush="#FFEE82EE" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</StopLimitSerialize>
+            <StopLossSerialize>&lt;Pen Brush="#FFFF0000" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</StopLossSerialize>
+            <StopMarketSerialize>&lt;Pen Brush="#FFFFC0CB" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</StopMarketSerialize>
+          </ChartTraderProperties>
+        </Properties>
+      </ChartTrader>
+    </Chart-15c0ed4462d84cc194579ffbde0087db>
+    <Chart-23ba6d430bb04e578a389cfe5c0eaa07>
+      <Class Assembly="NinjaTrader.Gui">NinjaTrader.Gui.Chart.Chart</Class>
+      <WindowState>Normal</WindowState>
+      <Location>481;1</Location>
+      <Size>485;360</Size>
+      <ZOrder>3</ZOrder>
+      <Topmost>False</Topmost>
+      <TraderWidth>200</TraderWidth>
+      <TabControl>
+        <SelectedIndex>0</SelectedIndex>
+        <Tab-b073577711874e9784eb950ab9868e2e>
+          <InstrumentLink>0</InstrumentLink>
+          <IntervalLink>0</IntervalLink>
+          <DataSeries>
+            <BarsProperties>
+              <BarsProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <BarsPeriod>
+                  <BarsPeriodTypeSerialize>5</BarsPeriodTypeSerialize>
+                  <BaseBarsPeriodType>Minute</BaseBarsPeriodType>
+                  <BaseBarsPeriodValue>1</BaseBarsPeriodValue>
+                  <VolumetricDeltaType>BidAsk</VolumetricDeltaType>
+                  <MarketDataType>Last</MarketDataType>
+                  <PointAndFigurePriceType>Close</PointAndFigurePriceType>
+                  <ReversalType>Tick</ReversalType>
+                  <Value>1</Value>
+                  <Value2>1</Value2>
+                </BarsPeriod>
+                <RangeType>Days</RangeType>
+                <BarsBack>50</BarsBack>
+                <DaysBack>1000</DaysBack>
+                <From>2020-09-13T00:00:00</From>
+                <IsStableSession>true</IsStableSession>
+                <IsTickReplay>false</IsTickReplay>
+                <To>2099-12-01T00:00:00</To>
+                <TradingHoursSerializable />
+                <AutoScale>true</AutoScale>
+                <CenterPriceOnScale>false</CenterPriceOnScale>
+                <DisplayInDataBox>true</DisplayInDataBox>
+                <Label>ES 09-22</Label>
+                <MaxSerialized>0</MaxSerialized>
+                <MinSerialized>0</MinSerialized>
+                <Panel>0</Panel>
+                <PriceMarker>
+                  <BackgroundSerialize>DEFAULT</BackgroundSerialize>
+                  <IsVisible>true</IsVisible>
+                </PriceMarker>
+                <ShowGlobalDrawObjects>true</ShowGlobalDrawObjects>
+                <ScaleJustification>Right</ScaleJustification>
+                <TradingHoursVisibility>AllSessions</TradingHoursVisibility>
+                <TradingHoursBreakPenSerialize>&lt;Pen Brush="#FF2D2D2F" Thickness="1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</TradingHoursBreakPenSerialize>
+                <LongExecutionBrushSerialize>DEFAULT</LongExecutionBrushSerialize>
+                <PlotExecutions>DoNotPlot</PlotExecutions>
+                <PositionPenLoserSerialize>DEFAULT</PositionPenLoserSerialize>
+                <PositionPenWinnerSerialize>DEFAULT</PositionPenWinnerSerialize>
+                <ShortExecutionBrushSerialize>DEFAULT</ShortExecutionBrushSerialize>
+                <BarsSeriesId>250837f673504bcba73dc40fdb112c91</BarsSeriesId>
+                <Id>250837f673504bcba73dc40fdb112c91</Id>
+                <Instrument>ES 09-22</Instrument>
+                <IsLinked>true</IsLinked>
+                <IsPrimarySeries>true</IsPrimarySeries>
+                <ZOrder>1</ZOrder>
+              </BarsProperties>
+              <ChartStyles>
+                <ChartStyle>
+                  <CandleStyle>
+                    <CandleStyle xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                      <IsVisible>true</IsVisible>
+                      <BarWidth>2.0793960743713291</BarWidth>
+                      <ChartStyleTypeSerialize>1</ChartStyleTypeSerialize>
+                      <DownBrushSerialize>DEFAULT</DownBrushSerialize>
+                      <UpBrushSerialize>DEFAULT</UpBrushSerialize>
+                      <StrokeSerialize>DEFAULT</StrokeSerialize>
+                      <Stroke2Serialize>DEFAULT</Stroke2Serialize>
+                    </CandleStyle>
+                  </CandleStyle>
+                </ChartStyle>
+              </ChartStyles>
+            </BarsProperties>
+          </DataSeries>
+          <Strategies />
+          <Indicators />
+          <CrosshairType>Local</CrosshairType>
+          <StayInDrawMode>False</StayInDrawMode>
+          <Properties>
+            <ChartControlProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+              <AlwaysOnTop>false</AlwaysOnTop>
+              <AreTabsVisible>true</AreTabsVisible>
+              <AllowSelectionDragging>true</AllowSelectionDragging>
+              <EquidistantBarSpacing>true</EquidistantBarSpacing>
+              <LabelFont>
+                <Bold>false</Bold>
+                <FamilySerialize>Arial</FamilySerialize>
+                <Italic>false</Italic>
+                <Size>11</Size>
+              </LabelFont>
+              <BarDistance>6.93132067</BarDistance>
+              <BarMarginRightUser>8</BarMarginRightUser>
+              <ChartTraderVisibility>Collapsed</ChartTraderVisibility>
+              <ShowDateRange>false</ShowDateRange>
+              <ShowScrollBar>true</ShowScrollBar>
+              <SnapMode>Bar</SnapMode>
+              <TabName>@INSTRUMENT_FULL</TabName>
+              <LoadBackgroundImage>false</LoadBackgroundImage>
+              <BackgroundImageStretch>Fill</BackgroundImageStretch>
+              <ChartBackgroundSerialize>DEFAULT</ChartBackgroundSerialize>
+              <ChartTextSerialize>DEFAULT</ChartTextSerialize>
+              <CrosshairLabelBackgroundSerialize>DEFAULT</CrosshairLabelBackgroundSerialize>
+              <InactivePriceMarkersBrushSerialize>DEFAULT</InactivePriceMarkersBrushSerialize>
+              <AreHGridLinesVisible>true</AreHGridLinesVisible>
+              <AreVGridLinesVisible>true</AreVGridLinesVisible>
+              <AxisPenSerialize>DEFAULT</AxisPenSerialize>
+              <CrosshairPen>DEFAULT</CrosshairPen>
+              <CrosshairIsLocked>false</CrosshairIsLocked>
+              <CrosshairCrosshairType>Local</CrosshairCrosshairType>
+              <CrosshairDrawCursorOnly>false</CrosshairDrawCursorOnly>
+              <GridLineHPenSerialize>DEFAULT</GridLineHPenSerialize>
+              <GridLineVPenSerialize>DEFAULT</GridLineVPenSerialize>
+              <PanelSplitterPenSerialize>DEFAULT</PanelSplitterPenSerialize>
+            </ChartControlProperties>
+          </Properties>
+          <ChartPanels>
+            <ChartPanel>
+              <Height>250</Height>
+              <HoldChartTraderOrders>false</HoldChartTraderOrders>
+              <IsMaximized>false</IsMaximized>
+              <Right>
+                <ChartScaleProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <YAxisRangeType>Fixed</YAxisRangeType>
+                  <AutoScaleDateRangeType>ScreenDateRange</AutoScaleDateRangeType>
+                  <HorizontalGridlinesCalculation>Automatic</HorizontalGridlinesCalculation>
+                  <HorizontalGridlinesIntervalType>Points</HorizontalGridlinesIntervalType>
+                  <HorizontalGridlinesInterval>0</HorizontalGridlinesInterval>
+                  <AutoScaleMarginType>Percent</AutoScaleMarginType>
+                  <AutoScaleMarginLower>6</AutoScaleMarginLower>
+                  <AutoScaleMarginUpper>6</AutoScaleMarginUpper>
+                  <YAxisScalingType>Linear</YAxisScalingType>
+                  <FixedScaleMaxSerialize>4717.3027999999995</FixedScaleMaxSerialize>
+                  <FixedScaleMinSerialize>3794.9828</FixedScaleMinSerialize>
+                </ChartScaleProperties>
+              </Right>
+              <Left>
+                <ChartScaleProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <YAxisRangeType>Automatic</YAxisRangeType>
+                  <AutoScaleDateRangeType>ScreenDateRange</AutoScaleDateRangeType>
+                  <HorizontalGridlinesCalculation>Automatic</HorizontalGridlinesCalculation>
+                  <HorizontalGridlinesIntervalType>Points</HorizontalGridlinesIntervalType>
+                  <HorizontalGridlinesInterval>0</HorizontalGridlinesInterval>
+                  <AutoScaleMarginType>Percent</AutoScaleMarginType>
+                  <AutoScaleMarginLower>6</AutoScaleMarginLower>
+                  <AutoScaleMarginUpper>6</AutoScaleMarginUpper>
+                  <YAxisScalingType>Linear</YAxisScalingType>
+                  <FixedScaleMaxSerialize>0</FixedScaleMaxSerialize>
+                  <FixedScaleMinSerialize>0</FixedScaleMinSerialize>
+                </ChartScaleProperties>
+              </Left>
+              <Overlay>
+                <ChartScaleProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <YAxisRangeType>Automatic</YAxisRangeType>
+                  <AutoScaleDateRangeType>ScreenDateRange</AutoScaleDateRangeType>
+                  <HorizontalGridlinesCalculation>Automatic</HorizontalGridlinesCalculation>
+                  <HorizontalGridlinesIntervalType>Points</HorizontalGridlinesIntervalType>
+                  <HorizontalGridlinesInterval>0</HorizontalGridlinesInterval>
+                  <AutoScaleMarginType>Percent</AutoScaleMarginType>
+                  <AutoScaleMarginLower>6</AutoScaleMarginLower>
+                  <AutoScaleMarginUpper>6</AutoScaleMarginUpper>
+                  <YAxisScalingType>Linear</YAxisScalingType>
+                  <FixedScaleMaxSerialize>0</FixedScaleMaxSerialize>
+                  <FixedScaleMinSerialize>0</FixedScaleMinSerialize>
+                </ChartScaleProperties>
+              </Overlay>
+            </ChartPanel>
+          </ChartPanels>
+          <DrawingTools>
+            <Line xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+              <IsVisible>true</IsVisible>
+              <IsAutoScale>false</IsAutoScale>
+              <MaxValue>-1.7976931348623157E+308</MaxValue>
+              <MinValue>1.7976931348623157E+308</MinValue>
+              <ZOrder>30004</ZOrder>
+              <AttachedTo>
+                <ChartObjectSerialize>ChartBars</ChartObjectSerialize>
+                <InstrumentSerialize>ES 09-22</InstrumentSerialize>
+              </AttachedTo>
+              <ScaleJustification>Right</ScaleJustification>
+              <DrawingState>Normal</DrawingState>
+              <DisplayOnChartsMenus>true</DisplayOnChartsMenus>
+              <GlobalLastSeenSerialize>0</GlobalLastSeenSerialize>
+              <GlobalWorkspace>2-RATIOS</GlobalWorkspace>
+              <Id>42b222b960754948a473683aa10e7d63</Id>
+              <IsLocked>false</IsLocked>
+              <PanelIndex>0</PanelIndex>
+              <Tag>Line 13</Tag>
+              <ZOrderType>Normal</ZOrderType>
+              <EndAnchor>
+                <SlotIndex>411.73913043478262</SlotIndex>
+                <DisplayName>End</DisplayName>
+                <IsBrowsable>true</IsBrowsable>
+                <Time>2021-05-07T17:00:00</Time>
+                <Price>3939.6570081967216</Price>
+              </EndAnchor>
+              <StartAnchor>
+                <SlotIndex>408.73913043478262</SlotIndex>
+                <DisplayName>Start</DisplayName>
+                <IsBrowsable>true</IsBrowsable>
+                <Time>2021-05-04T17:00:00</Time>
+                <Price>3939.492786885246</Price>
+              </StartAnchor>
+              <Stroke>
+                <IsOpacityVisible>true</IsOpacityVisible>
+                <BrushSerialize>&lt;SolidColorBrush xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;#FF6495ED&lt;/SolidColorBrush&gt;</BrushSerialize>
+                <DashStyleHelper>Solid</DashStyleHelper>
+                <Opacity>100</Opacity>
+                <Width>2</Width>
+              </Stroke>
+              <FullTypeName>NinjaTrader.NinjaScript.DrawingTools.Line</FullTypeName>
+              <IsGlobalDrawingObjectDefault>false</IsGlobalDrawingObjectDefault>
+              <IsOwnerVisible>true</IsOwnerVisible>
+            </Line>
+          </DrawingTools>
+          <ChartAlerts />
+          <TabName>@INSTRUMENT_FULL</TabName>
+          <Type>ChartTab</Type>
+        </Tab-b073577711874e9784eb950ab9868e2e>
+      </TabControl>
+      <ChartTrader>
+        <Account>Sim101</Account>
+        <ATM></ATM>
+        <Instrument>ES 09-22</Instrument>
+        <Quantity>1</Quantity>
+        <TIF>Day</TIF>
+        <Properties>
+          <ChartTraderProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <AtmStrategySelectionMode>SelectActiveAtmStrategyOnOrderSubmission</AtmStrategySelectionMode>
+            <AutoScale>true</AutoScale>
+            <OrderDisplayBarLength>25</OrderDisplayBarLength>
+            <PnLDisplayUnit>Points</PnLDisplayUnit>
+            <QuantityModificationForStocks>IncreaseQuantity</QuantityModificationForStocks>
+            <ScaleQuantity>0</ScaleQuantity>
+            <ShowRealizedPnLWhenFlat>false</ShowRealizedPnLWhenFlat>
+            <SimulatedOrderVolumeTrigger>0</SimulatedOrderVolumeTrigger>
+            <StopLimitOffsetEnabled>false</StopLimitOffsetEnabled>
+            <StopLimitOffsetValue>0</StopLimitOffsetValue>
+            <ActionButtonsBackgroundSerialize>DEFAULT</ActionButtonsBackgroundSerialize>
+            <BuyButtonsBackgroundSerialize>DEFAULT</BuyButtonsBackgroundSerialize>
+            <SellButtonsBackgroundSerialize>DEFAULT</SellButtonsBackgroundSerialize>
+            <LimitSerialize>&lt;Pen Brush="#FF00FFFF" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</LimitSerialize>
+            <MitSerialize>&lt;Pen Brush="#FF00FF7F" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</MitSerialize>
+            <PositionEntryPriceSerialize>&lt;Pen Brush="#FFDEB887" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</PositionEntryPriceSerialize>
+            <ProfitTargetSerialize>&lt;Pen Brush="#FF00FF00" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</ProfitTargetSerialize>
+            <StopLimitSerialize>&lt;Pen Brush="#FFEE82EE" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</StopLimitSerialize>
+            <StopLossSerialize>&lt;Pen Brush="#FFFF0000" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</StopLossSerialize>
+            <StopMarketSerialize>&lt;Pen Brush="#FFFFC0CB" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</StopMarketSerialize>
+          </ChartTraderProperties>
+        </Properties>
+      </ChartTrader>
+    </Chart-23ba6d430bb04e578a389cfe5c0eaa07>
+    <Chart-e14559ebe23e456387aef44c3fa7b7ec>
+      <Class Assembly="NinjaTrader.Gui">NinjaTrader.Gui.Chart.Chart</Class>
+      <WindowState>Normal</WindowState>
+      <Location>1;361</Location>
+      <Size>478;352</Size>
+      <ZOrder>4</ZOrder>
+      <Topmost>False</Topmost>
+      <TraderWidth>200</TraderWidth>
+      <TabControl>
+        <SelectedIndex>0</SelectedIndex>
+        <Tab-ad36390f9a1a4cd8a6e8e90607e13c0c>
+          <InstrumentLink>0</InstrumentLink>
+          <IntervalLink>0</IntervalLink>
+          <DataSeries>
+            <BarsProperties>
+              <BarsProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <BarsPeriod>
+                  <BarsPeriodTypeSerialize>5</BarsPeriodTypeSerialize>
+                  <BaseBarsPeriodType>Minute</BaseBarsPeriodType>
+                  <BaseBarsPeriodValue>1</BaseBarsPeriodValue>
+                  <VolumetricDeltaType>BidAsk</VolumetricDeltaType>
+                  <MarketDataType>Last</MarketDataType>
+                  <PointAndFigurePriceType>Close</PointAndFigurePriceType>
+                  <ReversalType>Tick</ReversalType>
+                  <Value>1</Value>
+                  <Value2>1</Value2>
+                </BarsPeriod>
+                <RangeType>Days</RangeType>
+                <BarsBack>50</BarsBack>
+                <DaysBack>1285</DaysBack>
+                <From>2020-09-13T00:00:00</From>
+                <IsStableSession>true</IsStableSession>
+                <IsTickReplay>false</IsTickReplay>
+                <To>2099-12-01T00:00:00</To>
+                <TradingHoursSerializable>Eurex Equity Index Futures Extended</TradingHoursSerializable>
+                <AutoScale>true</AutoScale>
+                <CenterPriceOnScale>false</CenterPriceOnScale>
+                <DisplayInDataBox>true</DisplayInDataBox>
+                <Label>FDAX 06-22</Label>
+                <MaxSerialized>16290</MaxSerialized>
+                <MinSerialized>12441</MinSerialized>
+                <Panel>0</Panel>
+                <PriceMarker>
+                  <BackgroundSerialize>DEFAULT</BackgroundSerialize>
+                  <IsVisible>true</IsVisible>
+                </PriceMarker>
+                <ShowGlobalDrawObjects>true</ShowGlobalDrawObjects>
+                <ScaleJustification>Right</ScaleJustification>
+                <TradingHoursVisibility>AllSessions</TradingHoursVisibility>
+                <TradingHoursBreakPenSerialize>&lt;Pen Brush="#FF2D2D2F" Thickness="1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</TradingHoursBreakPenSerialize>
+                <LongExecutionBrushSerialize>DEFAULT</LongExecutionBrushSerialize>
+                <PlotExecutions>DoNotPlot</PlotExecutions>
+                <PositionPenLoserSerialize>DEFAULT</PositionPenLoserSerialize>
+                <PositionPenWinnerSerialize>DEFAULT</PositionPenWinnerSerialize>
+                <ShortExecutionBrushSerialize>DEFAULT</ShortExecutionBrushSerialize>
+                <BarsSeriesId>f49ad13501eb4ee9901eb305350c1628</BarsSeriesId>
+                <Id>f49ad13501eb4ee9901eb305350c1628</Id>
+                <Instrument>FDAX 06-22</Instrument>
+                <IsLinked>true</IsLinked>
+                <IsPrimarySeries>true</IsPrimarySeries>
+                <ZOrder>1</ZOrder>
+              </BarsProperties>
+              <ChartStyles>
+                <ChartStyle>
+                  <CandleStyle>
+                    <CandleStyle xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                      <IsVisible>true</IsVisible>
+                      <BarWidth>1.51065161539857</BarWidth>
+                      <ChartStyleTypeSerialize>1</ChartStyleTypeSerialize>
+                      <DownBrushSerialize>DEFAULT</DownBrushSerialize>
+                      <UpBrushSerialize>DEFAULT</UpBrushSerialize>
+                      <StrokeSerialize>DEFAULT</StrokeSerialize>
+                      <Stroke2Serialize>DEFAULT</Stroke2Serialize>
+                    </CandleStyle>
+                  </CandleStyle>
+                </ChartStyle>
+              </ChartStyles>
+            </BarsProperties>
+          </DataSeries>
+          <Strategies />
+          <Indicators />
+          <CrosshairType>Local</CrosshairType>
+          <StayInDrawMode>False</StayInDrawMode>
+          <Properties>
+            <ChartControlProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+              <AlwaysOnTop>false</AlwaysOnTop>
+              <AreTabsVisible>true</AreTabsVisible>
+              <AllowSelectionDragging>true</AllowSelectionDragging>
+              <EquidistantBarSpacing>true</EquidistantBarSpacing>
+              <LabelFont>
+                <Bold>false</Bold>
+                <FamilySerialize>Arial</FamilySerialize>
+                <Italic>false</Italic>
+                <Size>11</Size>
+              </LabelFont>
+              <BarDistance>5.03550243</BarDistance>
+              <BarMarginRightUser>8</BarMarginRightUser>
+              <ChartTraderVisibility>Collapsed</ChartTraderVisibility>
+              <ShowDateRange>false</ShowDateRange>
+              <ShowScrollBar>true</ShowScrollBar>
+              <SnapMode>Bar</SnapMode>
+              <TabName>@INSTRUMENT_FULL</TabName>
+              <LoadBackgroundImage>false</LoadBackgroundImage>
+              <BackgroundImageStretch>Fill</BackgroundImageStretch>
+              <ChartBackgroundSerialize>DEFAULT</ChartBackgroundSerialize>
+              <ChartTextSerialize>DEFAULT</ChartTextSerialize>
+              <CrosshairLabelBackgroundSerialize>DEFAULT</CrosshairLabelBackgroundSerialize>
+              <InactivePriceMarkersBrushSerialize>DEFAULT</InactivePriceMarkersBrushSerialize>
+              <AreHGridLinesVisible>true</AreHGridLinesVisible>
+              <AreVGridLinesVisible>true</AreVGridLinesVisible>
+              <AxisPenSerialize>DEFAULT</AxisPenSerialize>
+              <CrosshairPen>DEFAULT</CrosshairPen>
+              <CrosshairIsLocked>false</CrosshairIsLocked>
+              <CrosshairCrosshairType>Local</CrosshairCrosshairType>
+              <CrosshairDrawCursorOnly>false</CrosshairDrawCursorOnly>
+              <GridLineHPenSerialize>DEFAULT</GridLineHPenSerialize>
+              <GridLineVPenSerialize>DEFAULT</GridLineVPenSerialize>
+              <PanelSplitterPenSerialize>DEFAULT</PanelSplitterPenSerialize>
+            </ChartControlProperties>
+          </Properties>
+          <ChartPanels>
+            <ChartPanel>
+              <Height>242</Height>
+              <HoldChartTraderOrders>false</HoldChartTraderOrders>
+              <IsMaximized>false</IsMaximized>
+              <Right>
+                <ChartScaleProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <YAxisRangeType>Automatic</YAxisRangeType>
+                  <AutoScaleDateRangeType>ScreenDateRange</AutoScaleDateRangeType>
+                  <HorizontalGridlinesCalculation>Automatic</HorizontalGridlinesCalculation>
+                  <HorizontalGridlinesIntervalType>Points</HorizontalGridlinesIntervalType>
+                  <HorizontalGridlinesInterval>0</HorizontalGridlinesInterval>
+                  <AutoScaleMarginType>Percent</AutoScaleMarginType>
+                  <AutoScaleMarginLower>6</AutoScaleMarginLower>
+                  <AutoScaleMarginUpper>6</AutoScaleMarginUpper>
+                  <YAxisScalingType>Linear</YAxisScalingType>
+                  <FixedScaleMaxSerialize>14945</FixedScaleMaxSerialize>
+                  <FixedScaleMinSerialize>12441</FixedScaleMinSerialize>
+                </ChartScaleProperties>
+              </Right>
+              <Left>
+                <ChartScaleProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <YAxisRangeType>Automatic</YAxisRangeType>
+                  <AutoScaleDateRangeType>ScreenDateRange</AutoScaleDateRangeType>
+                  <HorizontalGridlinesCalculation>Automatic</HorizontalGridlinesCalculation>
+                  <HorizontalGridlinesIntervalType>Points</HorizontalGridlinesIntervalType>
+                  <HorizontalGridlinesInterval>0</HorizontalGridlinesInterval>
+                  <AutoScaleMarginType>Percent</AutoScaleMarginType>
+                  <AutoScaleMarginLower>6</AutoScaleMarginLower>
+                  <AutoScaleMarginUpper>6</AutoScaleMarginUpper>
+                  <YAxisScalingType>Linear</YAxisScalingType>
+                  <FixedScaleMaxSerialize>0</FixedScaleMaxSerialize>
+                  <FixedScaleMinSerialize>0</FixedScaleMinSerialize>
+                </ChartScaleProperties>
+              </Left>
+              <Overlay>
+                <ChartScaleProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <YAxisRangeType>Automatic</YAxisRangeType>
+                  <AutoScaleDateRangeType>ScreenDateRange</AutoScaleDateRangeType>
+                  <HorizontalGridlinesCalculation>Automatic</HorizontalGridlinesCalculation>
+                  <HorizontalGridlinesIntervalType>Points</HorizontalGridlinesIntervalType>
+                  <HorizontalGridlinesInterval>0</HorizontalGridlinesInterval>
+                  <AutoScaleMarginType>Percent</AutoScaleMarginType>
+                  <AutoScaleMarginLower>6</AutoScaleMarginLower>
+                  <AutoScaleMarginUpper>6</AutoScaleMarginUpper>
+                  <YAxisScalingType>Linear</YAxisScalingType>
+                  <FixedScaleMaxSerialize>0</FixedScaleMaxSerialize>
+                  <FixedScaleMinSerialize>0</FixedScaleMinSerialize>
+                </ChartScaleProperties>
+              </Overlay>
+            </ChartPanel>
+          </ChartPanels>
+          <ChartAlerts />
+          <TabName>@INSTRUMENT_FULL</TabName>
+          <Type>ChartTab</Type>
+        </Tab-ad36390f9a1a4cd8a6e8e90607e13c0c>
+      </TabControl>
+      <ChartTrader>
+        <Account>Sim101</Account>
+        <ATM></ATM>
+        <Instrument>FDAX 06-22</Instrument>
+        <Quantity>1</Quantity>
+        <TIF>Day</TIF>
+        <Properties>
+          <ChartTraderProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <AtmStrategySelectionMode>SelectActiveAtmStrategyOnOrderSubmission</AtmStrategySelectionMode>
+            <AutoScale>true</AutoScale>
+            <OrderDisplayBarLength>25</OrderDisplayBarLength>
+            <PnLDisplayUnit>Points</PnLDisplayUnit>
+            <QuantityModificationForStocks>IncreaseQuantity</QuantityModificationForStocks>
+            <ScaleQuantity>0</ScaleQuantity>
+            <ShowRealizedPnLWhenFlat>false</ShowRealizedPnLWhenFlat>
+            <SimulatedOrderVolumeTrigger>0</SimulatedOrderVolumeTrigger>
+            <StopLimitOffsetEnabled>false</StopLimitOffsetEnabled>
+            <StopLimitOffsetValue>0</StopLimitOffsetValue>
+            <ActionButtonsBackgroundSerialize>DEFAULT</ActionButtonsBackgroundSerialize>
+            <BuyButtonsBackgroundSerialize>DEFAULT</BuyButtonsBackgroundSerialize>
+            <SellButtonsBackgroundSerialize>DEFAULT</SellButtonsBackgroundSerialize>
+            <LimitSerialize>&lt;Pen Brush="#FF00FFFF" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</LimitSerialize>
+            <MitSerialize>&lt;Pen Brush="#FF00FF7F" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</MitSerialize>
+            <PositionEntryPriceSerialize>&lt;Pen Brush="#FFDEB887" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</PositionEntryPriceSerialize>
+            <ProfitTargetSerialize>&lt;Pen Brush="#FF00FF00" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</ProfitTargetSerialize>
+            <StopLimitSerialize>&lt;Pen Brush="#FFEE82EE" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</StopLimitSerialize>
+            <StopLossSerialize>&lt;Pen Brush="#FFFF0000" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</StopLossSerialize>
+            <StopMarketSerialize>&lt;Pen Brush="#FFFFC0CB" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</StopMarketSerialize>
+          </ChartTraderProperties>
+        </Properties>
+      </ChartTrader>
+    </Chart-e14559ebe23e456387aef44c3fa7b7ec>
+    <Chart-09d8b34e8e43461c995e77016c7d4cd4>
+      <Class Assembly="NinjaTrader.Gui">NinjaTrader.Gui.Chart.Chart</Class>
+      <WindowState>Normal</WindowState>
+      <Location>481;362</Location>
+      <Size>484;350</Size>
+      <ZOrder>5</ZOrder>
+      <Topmost>False</Topmost>
+      <TraderWidth>200</TraderWidth>
+      <TabControl>
+        <SelectedIndex>0</SelectedIndex>
+        <Tab-c21cb56ada3c4cada528709272796130>
+          <InstrumentLink>0</InstrumentLink>
+          <IntervalLink>0</IntervalLink>
+          <DataSeries>
+            <BarsProperties>
+              <BarsProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <BarsPeriod>
+                  <BarsPeriodTypeSerialize>5</BarsPeriodTypeSerialize>
+                  <BaseBarsPeriodType>Minute</BaseBarsPeriodType>
+                  <BaseBarsPeriodValue>1</BaseBarsPeriodValue>
+                  <VolumetricDeltaType>BidAsk</VolumetricDeltaType>
+                  <MarketDataType>Last</MarketDataType>
+                  <PointAndFigurePriceType>Close</PointAndFigurePriceType>
+                  <ReversalType>Tick</ReversalType>
+                  <Value>1</Value>
+                  <Value2>1</Value2>
+                </BarsPeriod>
+                <RangeType>Days</RangeType>
+                <BarsBack>50</BarsBack>
+                <DaysBack>365</DaysBack>
+                <From>2020-09-13T00:00:00</From>
+                <IsStableSession>true</IsStableSession>
+                <IsTickReplay>false</IsTickReplay>
+                <To>2099-12-01T00:00:00</To>
+                <TradingHoursSerializable />
+                <AutoScale>true</AutoScale>
+                <CenterPriceOnScale>false</CenterPriceOnScale>
+                <DisplayInDataBox>true</DisplayInDataBox>
+                <Label>FGBL 09-22</Label>
+                <MaxSerialized>175.02</MaxSerialized>
+                <MinSerialized>169.57</MinSerialized>
+                <Panel>0</Panel>
+                <PriceMarker>
+                  <BackgroundSerialize>DEFAULT</BackgroundSerialize>
+                  <IsVisible>true</IsVisible>
+                </PriceMarker>
+                <ShowGlobalDrawObjects>true</ShowGlobalDrawObjects>
+                <ScaleJustification>Right</ScaleJustification>
+                <TradingHoursVisibility>AllSessions</TradingHoursVisibility>
+                <TradingHoursBreakPenSerialize>&lt;Pen Brush="#FF2D2D2F" Thickness="1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</TradingHoursBreakPenSerialize>
+                <LongExecutionBrushSerialize>DEFAULT</LongExecutionBrushSerialize>
+                <PlotExecutions>DoNotPlot</PlotExecutions>
+                <PositionPenLoserSerialize>DEFAULT</PositionPenLoserSerialize>
+                <PositionPenWinnerSerialize>DEFAULT</PositionPenWinnerSerialize>
+                <ShortExecutionBrushSerialize>DEFAULT</ShortExecutionBrushSerialize>
+                <BarsSeriesId>f49ad13501eb4ee9901eb305350c1628</BarsSeriesId>
+                <Id>8f12cf3853e74b8ba35425fb163a078e</Id>
+                <Instrument>FGBL 09-22</Instrument>
+                <IsLinked>true</IsLinked>
+                <IsPrimarySeries>true</IsPrimarySeries>
+                <ZOrder>1</ZOrder>
+              </BarsProperties>
+              <ChartStyles>
+                <ChartStyle>
+                  <CandleStyle>
+                    <CandleStyle xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                      <IsVisible>true</IsVisible>
+                      <BarWidth>3.6282947979710851</BarWidth>
+                      <ChartStyleTypeSerialize>1</ChartStyleTypeSerialize>
+                      <DownBrushSerialize>DEFAULT</DownBrushSerialize>
+                      <UpBrushSerialize>DEFAULT</UpBrushSerialize>
+                      <StrokeSerialize>DEFAULT</StrokeSerialize>
+                      <Stroke2Serialize>DEFAULT</Stroke2Serialize>
+                    </CandleStyle>
+                  </CandleStyle>
+                </ChartStyle>
+              </ChartStyles>
+            </BarsProperties>
+          </DataSeries>
+          <Strategies />
+          <Indicators />
+          <CrosshairType>Off</CrosshairType>
+          <StayInDrawMode>False</StayInDrawMode>
+          <Properties>
+            <ChartControlProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+              <AlwaysOnTop>false</AlwaysOnTop>
+              <AreTabsVisible>true</AreTabsVisible>
+              <AllowSelectionDragging>true</AllowSelectionDragging>
+              <EquidistantBarSpacing>true</EquidistantBarSpacing>
+              <LabelFont>
+                <Bold>false</Bold>
+                <FamilySerialize>Arial</FamilySerialize>
+                <Italic>false</Italic>
+                <Size>11</Size>
+              </LabelFont>
+              <BarDistance>12.0943155</BarDistance>
+              <BarMarginRightUser>8</BarMarginRightUser>
+              <ChartTraderVisibility>Collapsed</ChartTraderVisibility>
+              <ShowDateRange>false</ShowDateRange>
+              <ShowScrollBar>true</ShowScrollBar>
+              <SnapMode>Bar</SnapMode>
+              <TabName>@INSTRUMENT_FULL</TabName>
+              <LoadBackgroundImage>false</LoadBackgroundImage>
+              <BackgroundImageStretch>Fill</BackgroundImageStretch>
+              <ChartBackgroundSerialize>DEFAULT</ChartBackgroundSerialize>
+              <ChartTextSerialize>DEFAULT</ChartTextSerialize>
+              <CrosshairLabelBackgroundSerialize>DEFAULT</CrosshairLabelBackgroundSerialize>
+              <InactivePriceMarkersBrushSerialize>DEFAULT</InactivePriceMarkersBrushSerialize>
+              <AreHGridLinesVisible>true</AreHGridLinesVisible>
+              <AreVGridLinesVisible>true</AreVGridLinesVisible>
+              <AxisPenSerialize>DEFAULT</AxisPenSerialize>
+              <CrosshairPen>DEFAULT</CrosshairPen>
+              <CrosshairIsLocked>false</CrosshairIsLocked>
+              <CrosshairCrosshairType>Off</CrosshairCrosshairType>
+              <CrosshairDrawCursorOnly>false</CrosshairDrawCursorOnly>
+              <GridLineHPenSerialize>DEFAULT</GridLineHPenSerialize>
+              <GridLineVPenSerialize>DEFAULT</GridLineVPenSerialize>
+              <PanelSplitterPenSerialize>DEFAULT</PanelSplitterPenSerialize>
+            </ChartControlProperties>
+          </Properties>
+          <ChartPanels>
+            <ChartPanel>
+              <Height>240</Height>
+              <HoldChartTraderOrders>false</HoldChartTraderOrders>
+              <IsMaximized>false</IsMaximized>
+              <Right>
+                <ChartScaleProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <YAxisRangeType>Automatic</YAxisRangeType>
+                  <AutoScaleDateRangeType>ScreenDateRange</AutoScaleDateRangeType>
+                  <HorizontalGridlinesCalculation>Automatic</HorizontalGridlinesCalculation>
+                  <HorizontalGridlinesIntervalType>Points</HorizontalGridlinesIntervalType>
+                  <HorizontalGridlinesInterval>0</HorizontalGridlinesInterval>
+                  <AutoScaleMarginType>Percent</AutoScaleMarginType>
+                  <AutoScaleMarginLower>6</AutoScaleMarginLower>
+                  <AutoScaleMarginUpper>6</AutoScaleMarginUpper>
+                  <YAxisScalingType>Linear</YAxisScalingType>
+                  <FixedScaleMaxSerialize>155.54000000000002</FixedScaleMaxSerialize>
+                  <FixedScaleMinSerialize>142.59</FixedScaleMinSerialize>
+                </ChartScaleProperties>
+              </Right>
+              <Left>
+                <ChartScaleProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <YAxisRangeType>Automatic</YAxisRangeType>
+                  <AutoScaleDateRangeType>ScreenDateRange</AutoScaleDateRangeType>
+                  <HorizontalGridlinesCalculation>Automatic</HorizontalGridlinesCalculation>
+                  <HorizontalGridlinesIntervalType>Points</HorizontalGridlinesIntervalType>
+                  <HorizontalGridlinesInterval>0</HorizontalGridlinesInterval>
+                  <AutoScaleMarginType>Percent</AutoScaleMarginType>
+                  <AutoScaleMarginLower>6</AutoScaleMarginLower>
+                  <AutoScaleMarginUpper>6</AutoScaleMarginUpper>
+                  <YAxisScalingType>Linear</YAxisScalingType>
+                  <FixedScaleMaxSerialize>0</FixedScaleMaxSerialize>
+                  <FixedScaleMinSerialize>0</FixedScaleMinSerialize>
+                </ChartScaleProperties>
+              </Left>
+              <Overlay>
+                <ChartScaleProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <YAxisRangeType>Automatic</YAxisRangeType>
+                  <AutoScaleDateRangeType>ScreenDateRange</AutoScaleDateRangeType>
+                  <HorizontalGridlinesCalculation>Automatic</HorizontalGridlinesCalculation>
+                  <HorizontalGridlinesIntervalType>Points</HorizontalGridlinesIntervalType>
+                  <HorizontalGridlinesInterval>0</HorizontalGridlinesInterval>
+                  <AutoScaleMarginType>Percent</AutoScaleMarginType>
+                  <AutoScaleMarginLower>6</AutoScaleMarginLower>
+                  <AutoScaleMarginUpper>6</AutoScaleMarginUpper>
+                  <YAxisScalingType>Linear</YAxisScalingType>
+                  <FixedScaleMaxSerialize>0</FixedScaleMaxSerialize>
+                  <FixedScaleMinSerialize>0</FixedScaleMinSerialize>
+                </ChartScaleProperties>
+              </Overlay>
+            </ChartPanel>
+          </ChartPanels>
+          <ChartAlerts />
+          <TabName>@INSTRUMENT_FULL</TabName>
+          <Type>ChartTab</Type>
+        </Tab-c21cb56ada3c4cada528709272796130>
+      </TabControl>
+      <ChartTrader>
+        <Account>Sim101</Account>
+        <ATM></ATM>
+        <Instrument>FGBL 09-22</Instrument>
+        <Quantity>1</Quantity>
+        <TIF>Day</TIF>
+        <Properties>
+          <ChartTraderProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <AtmStrategySelectionMode>SelectActiveAtmStrategyOnOrderSubmission</AtmStrategySelectionMode>
+            <AutoScale>true</AutoScale>
+            <OrderDisplayBarLength>25</OrderDisplayBarLength>
+            <PnLDisplayUnit>Points</PnLDisplayUnit>
+            <QuantityModificationForStocks>IncreaseQuantity</QuantityModificationForStocks>
+            <ScaleQuantity>0</ScaleQuantity>
+            <ShowRealizedPnLWhenFlat>false</ShowRealizedPnLWhenFlat>
+            <SimulatedOrderVolumeTrigger>0</SimulatedOrderVolumeTrigger>
+            <StopLimitOffsetEnabled>false</StopLimitOffsetEnabled>
+            <StopLimitOffsetValue>0</StopLimitOffsetValue>
+            <ActionButtonsBackgroundSerialize>DEFAULT</ActionButtonsBackgroundSerialize>
+            <BuyButtonsBackgroundSerialize>DEFAULT</BuyButtonsBackgroundSerialize>
+            <SellButtonsBackgroundSerialize>DEFAULT</SellButtonsBackgroundSerialize>
+            <LimitSerialize>&lt;Pen Brush="#FF00FFFF" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</LimitSerialize>
+            <MitSerialize>&lt;Pen Brush="#FF00FF7F" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</MitSerialize>
+            <PositionEntryPriceSerialize>&lt;Pen Brush="#FFDEB887" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</PositionEntryPriceSerialize>
+            <ProfitTargetSerialize>&lt;Pen Brush="#FF00FF00" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</ProfitTargetSerialize>
+            <StopLimitSerialize>&lt;Pen Brush="#FFEE82EE" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</StopLimitSerialize>
+            <StopLossSerialize>&lt;Pen Brush="#FFFF0000" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</StopLossSerialize>
+            <StopMarketSerialize>&lt;Pen Brush="#FFFFC0CB" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</StopMarketSerialize>
+          </ChartTraderProperties>
+        </Properties>
+      </ChartTrader>
+    </Chart-09d8b34e8e43461c995e77016c7d4cd4>
+    <Chart-0865a9738c974a6e8d83a3899e8c1d8d>
+      <Class Assembly="NinjaTrader.Gui">NinjaTrader.Gui.Chart.Chart</Class>
+      <WindowState>Normal</WindowState>
+      <Location>967;361</Location>
+      <Size>487;352</Size>
+      <ZOrder>6</ZOrder>
+      <Topmost>False</Topmost>
+      <TraderWidth>200</TraderWidth>
+      <TabControl>
+        <SelectedIndex>0</SelectedIndex>
+        <Tab-3d7a703755db41bebb3c3b20ce060431>
+          <InstrumentLink>0</InstrumentLink>
+          <IntervalLink>0</IntervalLink>
+          <DataSeries>
+            <BarsProperties>
+              <BarsProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <BarsPeriod>
+                  <BarsPeriodTypeSerialize>5</BarsPeriodTypeSerialize>
+                  <BaseBarsPeriodType>Minute</BaseBarsPeriodType>
+                  <BaseBarsPeriodValue>1</BaseBarsPeriodValue>
+                  <VolumetricDeltaType>BidAsk</VolumetricDeltaType>
+                  <MarketDataType>Last</MarketDataType>
+                  <PointAndFigurePriceType>Close</PointAndFigurePriceType>
+                  <ReversalType>Tick</ReversalType>
+                  <Value>1</Value>
+                  <Value2>1</Value2>
+                </BarsPeriod>
+                <RangeType>Days</RangeType>
+                <BarsBack>50</BarsBack>
+                <DaysBack>1200</DaysBack>
+                <From>2020-09-13T00:00:00</From>
+                <IsStableSession>true</IsStableSession>
+                <IsTickReplay>false</IsTickReplay>
+                <To>2099-12-01T00:00:00</To>
+                <TradingHoursSerializable />
+                <AutoScale>true</AutoScale>
+                <CenterPriceOnScale>false</CenterPriceOnScale>
+                <DisplayInDataBox>true</DisplayInDataBox>
+                <Label>GC 08-22</Label>
+                <MaxSerialized>1926</MaxSerialized>
+                <MinSerialized>1680.4</MinSerialized>
+                <Panel>0</Panel>
+                <PriceMarker>
+                  <BackgroundSerialize>DEFAULT</BackgroundSerialize>
+                  <IsVisible>true</IsVisible>
+                </PriceMarker>
+                <ShowGlobalDrawObjects>true</ShowGlobalDrawObjects>
+                <ScaleJustification>Right</ScaleJustification>
+                <TradingHoursVisibility>AllSessions</TradingHoursVisibility>
+                <TradingHoursBreakPenSerialize>&lt;Pen Brush="#FF2D2D2F" Thickness="1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</TradingHoursBreakPenSerialize>
+                <LongExecutionBrushSerialize>DEFAULT</LongExecutionBrushSerialize>
+                <PlotExecutions>DoNotPlot</PlotExecutions>
+                <PositionPenLoserSerialize>DEFAULT</PositionPenLoserSerialize>
+                <PositionPenWinnerSerialize>DEFAULT</PositionPenWinnerSerialize>
+                <ShortExecutionBrushSerialize>DEFAULT</ShortExecutionBrushSerialize>
+                <BarsSeriesId>6951bace7ff8471ca623501d806f730c</BarsSeriesId>
+                <Id>6951bace7ff8471ca623501d806f730c</Id>
+                <Instrument>GC 08-22</Instrument>
+                <IsLinked>true</IsLinked>
+                <IsPrimarySeries>true</IsPrimarySeries>
+                <ZOrder>1</ZOrder>
+              </BarsProperties>
+              <ChartStyles>
+                <ChartStyle>
+                  <CandleStyle>
+                    <CandleStyle xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                      <IsVisible>true</IsVisible>
+                      <BarWidth>1.6014793192185743</BarWidth>
+                      <ChartStyleTypeSerialize>1</ChartStyleTypeSerialize>
+                      <DownBrushSerialize>DEFAULT</DownBrushSerialize>
+                      <UpBrushSerialize>DEFAULT</UpBrushSerialize>
+                      <StrokeSerialize>DEFAULT</StrokeSerialize>
+                      <Stroke2Serialize>DEFAULT</Stroke2Serialize>
+                    </CandleStyle>
+                  </CandleStyle>
+                </ChartStyle>
+              </ChartStyles>
+            </BarsProperties>
+          </DataSeries>
+          <Strategies />
+          <Indicators />
+          <CrosshairType>Local</CrosshairType>
+          <StayInDrawMode>False</StayInDrawMode>
+          <Properties>
+            <ChartControlProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+              <AlwaysOnTop>false</AlwaysOnTop>
+              <AreTabsVisible>true</AreTabsVisible>
+              <AllowSelectionDragging>true</AllowSelectionDragging>
+              <EquidistantBarSpacing>true</EquidistantBarSpacing>
+              <LabelFont>
+                <Bold>false</Bold>
+                <FamilySerialize>Arial</FamilySerialize>
+                <Italic>false</Italic>
+                <Size>11</Size>
+              </LabelFont>
+              <BarDistance>5.33826733</BarDistance>
+              <BarMarginRightUser>8</BarMarginRightUser>
+              <ChartTraderVisibility>Collapsed</ChartTraderVisibility>
+              <ShowDateRange>false</ShowDateRange>
+              <ShowScrollBar>true</ShowScrollBar>
+              <SnapMode>Bar</SnapMode>
+              <TabName>@INSTRUMENT_FULL</TabName>
+              <LoadBackgroundImage>false</LoadBackgroundImage>
+              <BackgroundImageStretch>Fill</BackgroundImageStretch>
+              <ChartBackgroundSerialize>DEFAULT</ChartBackgroundSerialize>
+              <ChartTextSerialize>DEFAULT</ChartTextSerialize>
+              <CrosshairLabelBackgroundSerialize>DEFAULT</CrosshairLabelBackgroundSerialize>
+              <InactivePriceMarkersBrushSerialize>DEFAULT</InactivePriceMarkersBrushSerialize>
+              <AreHGridLinesVisible>true</AreHGridLinesVisible>
+              <AreVGridLinesVisible>true</AreVGridLinesVisible>
+              <AxisPenSerialize>DEFAULT</AxisPenSerialize>
+              <CrosshairPen>DEFAULT</CrosshairPen>
+              <CrosshairIsLocked>false</CrosshairIsLocked>
+              <CrosshairCrosshairType>Local</CrosshairCrosshairType>
+              <CrosshairDrawCursorOnly>false</CrosshairDrawCursorOnly>
+              <GridLineHPenSerialize>DEFAULT</GridLineHPenSerialize>
+              <GridLineVPenSerialize>DEFAULT</GridLineVPenSerialize>
+              <PanelSplitterPenSerialize>DEFAULT</PanelSplitterPenSerialize>
+            </ChartControlProperties>
+          </Properties>
+          <ChartPanels>
+            <ChartPanel>
+              <Height>242</Height>
+              <HoldChartTraderOrders>false</HoldChartTraderOrders>
+              <IsMaximized>false</IsMaximized>
+              <Right>
+                <ChartScaleProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <YAxisRangeType>Automatic</YAxisRangeType>
+                  <AutoScaleDateRangeType>ScreenDateRange</AutoScaleDateRangeType>
+                  <HorizontalGridlinesCalculation>Automatic</HorizontalGridlinesCalculation>
+                  <HorizontalGridlinesIntervalType>Points</HorizontalGridlinesIntervalType>
+                  <HorizontalGridlinesInterval>0</HorizontalGridlinesInterval>
+                  <AutoScaleMarginType>Percent</AutoScaleMarginType>
+                  <AutoScaleMarginLower>6</AutoScaleMarginLower>
+                  <AutoScaleMarginUpper>6</AutoScaleMarginUpper>
+                  <YAxisScalingType>Linear</YAxisScalingType>
+                  <FixedScaleMaxSerialize>2089.6000000000004</FixedScaleMaxSerialize>
+                  <FixedScaleMinSerialize>1790.9</FixedScaleMinSerialize>
+                </ChartScaleProperties>
+              </Right>
+              <Left>
+                <ChartScaleProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <YAxisRangeType>Automatic</YAxisRangeType>
+                  <AutoScaleDateRangeType>ScreenDateRange</AutoScaleDateRangeType>
+                  <HorizontalGridlinesCalculation>Automatic</HorizontalGridlinesCalculation>
+                  <HorizontalGridlinesIntervalType>Points</HorizontalGridlinesIntervalType>
+                  <HorizontalGridlinesInterval>0</HorizontalGridlinesInterval>
+                  <AutoScaleMarginType>Percent</AutoScaleMarginType>
+                  <AutoScaleMarginLower>6</AutoScaleMarginLower>
+                  <AutoScaleMarginUpper>6</AutoScaleMarginUpper>
+                  <YAxisScalingType>Linear</YAxisScalingType>
+                  <FixedScaleMaxSerialize>0</FixedScaleMaxSerialize>
+                  <FixedScaleMinSerialize>0</FixedScaleMinSerialize>
+                </ChartScaleProperties>
+              </Left>
+              <Overlay>
+                <ChartScaleProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <YAxisRangeType>Automatic</YAxisRangeType>
+                  <AutoScaleDateRangeType>ScreenDateRange</AutoScaleDateRangeType>
+                  <HorizontalGridlinesCalculation>Automatic</HorizontalGridlinesCalculation>
+                  <HorizontalGridlinesIntervalType>Points</HorizontalGridlinesIntervalType>
+                  <HorizontalGridlinesInterval>0</HorizontalGridlinesInterval>
+                  <AutoScaleMarginType>Percent</AutoScaleMarginType>
+                  <AutoScaleMarginLower>6</AutoScaleMarginLower>
+                  <AutoScaleMarginUpper>6</AutoScaleMarginUpper>
+                  <YAxisScalingType>Linear</YAxisScalingType>
+                  <FixedScaleMaxSerialize>0</FixedScaleMaxSerialize>
+                  <FixedScaleMinSerialize>0</FixedScaleMinSerialize>
+                </ChartScaleProperties>
+              </Overlay>
+            </ChartPanel>
+          </ChartPanels>
+          <ChartAlerts />
+          <TabName>@INSTRUMENT_FULL</TabName>
+          <Type>ChartTab</Type>
+        </Tab-3d7a703755db41bebb3c3b20ce060431>
+      </TabControl>
+      <ChartTrader>
+        <Account>Sim101</Account>
+        <ATM></ATM>
+        <Instrument>GC 08-22</Instrument>
+        <Quantity>1</Quantity>
+        <TIF>Day</TIF>
+        <Properties>
+          <ChartTraderProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <AtmStrategySelectionMode>SelectActiveAtmStrategyOnOrderSubmission</AtmStrategySelectionMode>
+            <AutoScale>true</AutoScale>
+            <OrderDisplayBarLength>25</OrderDisplayBarLength>
+            <PnLDisplayUnit>Points</PnLDisplayUnit>
+            <QuantityModificationForStocks>IncreaseQuantity</QuantityModificationForStocks>
+            <ScaleQuantity>0</ScaleQuantity>
+            <ShowRealizedPnLWhenFlat>false</ShowRealizedPnLWhenFlat>
+            <SimulatedOrderVolumeTrigger>0</SimulatedOrderVolumeTrigger>
+            <StopLimitOffsetEnabled>false</StopLimitOffsetEnabled>
+            <StopLimitOffsetValue>0</StopLimitOffsetValue>
+            <ActionButtonsBackgroundSerialize>DEFAULT</ActionButtonsBackgroundSerialize>
+            <BuyButtonsBackgroundSerialize>DEFAULT</BuyButtonsBackgroundSerialize>
+            <SellButtonsBackgroundSerialize>DEFAULT</SellButtonsBackgroundSerialize>
+            <LimitSerialize>&lt;Pen Brush="#FF00FFFF" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</LimitSerialize>
+            <MitSerialize>&lt;Pen Brush="#FF00FF7F" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</MitSerialize>
+            <PositionEntryPriceSerialize>&lt;Pen Brush="#FFDEB887" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</PositionEntryPriceSerialize>
+            <ProfitTargetSerialize>&lt;Pen Brush="#FF00FF00" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</ProfitTargetSerialize>
+            <StopLimitSerialize>&lt;Pen Brush="#FFEE82EE" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</StopLimitSerialize>
+            <StopLossSerialize>&lt;Pen Brush="#FFFF0000" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</StopLossSerialize>
+            <StopMarketSerialize>&lt;Pen Brush="#FFFFC0CB" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</StopMarketSerialize>
+          </ChartTraderProperties>
+        </Properties>
+      </ChartTrader>
+    </Chart-0865a9738c974a6e8d83a3899e8c1d8d>
+    <Chart-5839b462297e4985b270d580a845e6d4>
+      <Class Assembly="NinjaTrader.Gui">NinjaTrader.Gui.Chart.Chart</Class>
+      <WindowState>Normal</WindowState>
+      <Location>1454;362</Location>
+      <Size>465;351</Size>
+      <ZOrder>7</ZOrder>
+      <Topmost>False</Topmost>
+      <TraderWidth>200</TraderWidth>
+      <TabControl>
+        <SelectedIndex>0</SelectedIndex>
+        <Tab-0d4be50bd8ae450197060e59884230fe>
+          <InstrumentLink>0</InstrumentLink>
+          <IntervalLink>0</IntervalLink>
+          <DataSeries>
+            <BarsProperties>
+              <BarsProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <BarsPeriod>
+                  <BarsPeriodTypeSerialize>5</BarsPeriodTypeSerialize>
+                  <BaseBarsPeriodType>Minute</BaseBarsPeriodType>
+                  <BaseBarsPeriodValue>1</BaseBarsPeriodValue>
+                  <VolumetricDeltaType>BidAsk</VolumetricDeltaType>
+                  <MarketDataType>Last</MarketDataType>
+                  <PointAndFigurePriceType>Close</PointAndFigurePriceType>
+                  <ReversalType>Tick</ReversalType>
+                  <Value>1</Value>
+                  <Value2>1</Value2>
+                </BarsPeriod>
+                <RangeType>Days</RangeType>
+                <BarsBack>50</BarsBack>
+                <DaysBack>1365</DaysBack>
+                <From>2020-09-13T00:00:00</From>
+                <IsStableSession>true</IsStableSession>
+                <IsTickReplay>false</IsTickReplay>
+                <To>2099-12-01T00:00:00</To>
+                <TradingHoursSerializable />
+                <AutoScale>true</AutoScale>
+                <CenterPriceOnScale>false</CenterPriceOnScale>
+                <DisplayInDataBox>true</DisplayInDataBox>
+                <Label>CL 07-22</Label>
+                <MaxSerialized>0</MaxSerialized>
+                <MinSerialized>0</MinSerialized>
+                <Panel>0</Panel>
+                <PriceMarker>
+                  <BackgroundSerialize>DEFAULT</BackgroundSerialize>
+                  <IsVisible>true</IsVisible>
+                </PriceMarker>
+                <ShowGlobalDrawObjects>true</ShowGlobalDrawObjects>
+                <ScaleJustification>Right</ScaleJustification>
+                <TradingHoursVisibility>AllSessions</TradingHoursVisibility>
+                <TradingHoursBreakPenSerialize>&lt;Pen Brush="#FF2D2D2F" Thickness="1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</TradingHoursBreakPenSerialize>
+                <LongExecutionBrushSerialize>DEFAULT</LongExecutionBrushSerialize>
+                <PlotExecutions>DoNotPlot</PlotExecutions>
+                <PositionPenLoserSerialize>DEFAULT</PositionPenLoserSerialize>
+                <PositionPenWinnerSerialize>DEFAULT</PositionPenWinnerSerialize>
+                <ShortExecutionBrushSerialize>DEFAULT</ShortExecutionBrushSerialize>
+                <BarsSeriesId>fbe2e9c97841477f8de8835eb0aa076e</BarsSeriesId>
+                <Id>1b1998b22a76416fbafd9060102b8ff3</Id>
+                <Instrument>CL 07-22</Instrument>
+                <IsLinked>true</IsLinked>
+                <IsPrimarySeries>true</IsPrimarySeries>
+                <ZOrder>1</ZOrder>
+              </BarsProperties>
+              <ChartStyles>
+                <ChartStyle>
+                  <CandleStyle>
+                    <CandleStyle xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                      <IsVisible>true</IsVisible>
+                      <BarWidth>1.7994901943654649</BarWidth>
+                      <ChartStyleTypeSerialize>1</ChartStyleTypeSerialize>
+                      <DownBrushSerialize>DEFAULT</DownBrushSerialize>
+                      <UpBrushSerialize>DEFAULT</UpBrushSerialize>
+                      <StrokeSerialize>DEFAULT</StrokeSerialize>
+                      <Stroke2Serialize>DEFAULT</Stroke2Serialize>
+                    </CandleStyle>
+                  </CandleStyle>
+                </ChartStyle>
+              </ChartStyles>
+            </BarsProperties>
+          </DataSeries>
+          <Strategies />
+          <Indicators />
+          <CrosshairType>Local</CrosshairType>
+          <StayInDrawMode>False</StayInDrawMode>
+          <Properties>
+            <ChartControlProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+              <AlwaysOnTop>false</AlwaysOnTop>
+              <AreTabsVisible>true</AreTabsVisible>
+              <AllowSelectionDragging>true</AllowSelectionDragging>
+              <EquidistantBarSpacing>true</EquidistantBarSpacing>
+              <LabelFont>
+                <Bold>false</Bold>
+                <FamilySerialize>Arial</FamilySerialize>
+                <Italic>false</Italic>
+                <Size>11</Size>
+              </LabelFont>
+              <BarDistance>5.998301</BarDistance>
+              <BarMarginRightUser>8</BarMarginRightUser>
+              <ChartTraderVisibility>Collapsed</ChartTraderVisibility>
+              <ShowDateRange>false</ShowDateRange>
+              <ShowScrollBar>true</ShowScrollBar>
+              <SnapMode>Bar</SnapMode>
+              <TabName>@INSTRUMENT_FULL</TabName>
+              <LoadBackgroundImage>false</LoadBackgroundImage>
+              <BackgroundImageStretch>Fill</BackgroundImageStretch>
+              <ChartBackgroundSerialize>DEFAULT</ChartBackgroundSerialize>
+              <ChartTextSerialize>DEFAULT</ChartTextSerialize>
+              <CrosshairLabelBackgroundSerialize>DEFAULT</CrosshairLabelBackgroundSerialize>
+              <InactivePriceMarkersBrushSerialize>DEFAULT</InactivePriceMarkersBrushSerialize>
+              <AreHGridLinesVisible>true</AreHGridLinesVisible>
+              <AreVGridLinesVisible>true</AreVGridLinesVisible>
+              <AxisPenSerialize>DEFAULT</AxisPenSerialize>
+              <CrosshairPen>DEFAULT</CrosshairPen>
+              <CrosshairIsLocked>false</CrosshairIsLocked>
+              <CrosshairCrosshairType>Local</CrosshairCrosshairType>
+              <CrosshairDrawCursorOnly>false</CrosshairDrawCursorOnly>
+              <GridLineHPenSerialize>DEFAULT</GridLineHPenSerialize>
+              <GridLineVPenSerialize>DEFAULT</GridLineVPenSerialize>
+              <PanelSplitterPenSerialize>DEFAULT</PanelSplitterPenSerialize>
+            </ChartControlProperties>
+          </Properties>
+          <ChartPanels>
+            <ChartPanel>
+              <Height>241</Height>
+              <HoldChartTraderOrders>false</HoldChartTraderOrders>
+              <IsMaximized>false</IsMaximized>
+              <Right>
+                <ChartScaleProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <YAxisRangeType>Automatic</YAxisRangeType>
+                  <AutoScaleDateRangeType>ScreenDateRange</AutoScaleDateRangeType>
+                  <HorizontalGridlinesCalculation>Automatic</HorizontalGridlinesCalculation>
+                  <HorizontalGridlinesIntervalType>Points</HorizontalGridlinesIntervalType>
+                  <HorizontalGridlinesInterval>0</HorizontalGridlinesInterval>
+                  <AutoScaleMarginType>Percent</AutoScaleMarginType>
+                  <AutoScaleMarginLower>6</AutoScaleMarginLower>
+                  <AutoScaleMarginUpper>6</AutoScaleMarginUpper>
+                  <YAxisScalingType>Linear</YAxisScalingType>
+                  <FixedScaleMaxSerialize>123.68</FixedScaleMaxSerialize>
+                  <FixedScaleMinSerialize>89.83</FixedScaleMinSerialize>
+                </ChartScaleProperties>
+              </Right>
+              <Left>
+                <ChartScaleProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <YAxisRangeType>Automatic</YAxisRangeType>
+                  <AutoScaleDateRangeType>ScreenDateRange</AutoScaleDateRangeType>
+                  <HorizontalGridlinesCalculation>Automatic</HorizontalGridlinesCalculation>
+                  <HorizontalGridlinesIntervalType>Points</HorizontalGridlinesIntervalType>
+                  <HorizontalGridlinesInterval>0</HorizontalGridlinesInterval>
+                  <AutoScaleMarginType>Percent</AutoScaleMarginType>
+                  <AutoScaleMarginLower>6</AutoScaleMarginLower>
+                  <AutoScaleMarginUpper>6</AutoScaleMarginUpper>
+                  <YAxisScalingType>Linear</YAxisScalingType>
+                  <FixedScaleMaxSerialize>0</FixedScaleMaxSerialize>
+                  <FixedScaleMinSerialize>0</FixedScaleMinSerialize>
+                </ChartScaleProperties>
+              </Left>
+              <Overlay>
+                <ChartScaleProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <YAxisRangeType>Automatic</YAxisRangeType>
+                  <AutoScaleDateRangeType>ScreenDateRange</AutoScaleDateRangeType>
+                  <HorizontalGridlinesCalculation>Automatic</HorizontalGridlinesCalculation>
+                  <HorizontalGridlinesIntervalType>Points</HorizontalGridlinesIntervalType>
+                  <HorizontalGridlinesInterval>0</HorizontalGridlinesInterval>
+                  <AutoScaleMarginType>Percent</AutoScaleMarginType>
+                  <AutoScaleMarginLower>6</AutoScaleMarginLower>
+                  <AutoScaleMarginUpper>6</AutoScaleMarginUpper>
+                  <YAxisScalingType>Linear</YAxisScalingType>
+                  <FixedScaleMaxSerialize>0</FixedScaleMaxSerialize>
+                  <FixedScaleMinSerialize>0</FixedScaleMinSerialize>
+                </ChartScaleProperties>
+              </Overlay>
+            </ChartPanel>
+          </ChartPanels>
+          <ChartAlerts />
+          <TabName>@INSTRUMENT_FULL</TabName>
+          <Type>ChartTab</Type>
+        </Tab-0d4be50bd8ae450197060e59884230fe>
+      </TabControl>
+      <ChartTrader>
+        <Account>Sim101</Account>
+        <ATM></ATM>
+        <Instrument>CL 07-22</Instrument>
+        <Quantity>1</Quantity>
+        <TIF>Day</TIF>
+        <Properties>
+          <ChartTraderProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <AtmStrategySelectionMode>SelectActiveAtmStrategyOnOrderSubmission</AtmStrategySelectionMode>
+            <AutoScale>true</AutoScale>
+            <OrderDisplayBarLength>25</OrderDisplayBarLength>
+            <PnLDisplayUnit>Points</PnLDisplayUnit>
+            <QuantityModificationForStocks>IncreaseQuantity</QuantityModificationForStocks>
+            <ScaleQuantity>0</ScaleQuantity>
+            <ShowRealizedPnLWhenFlat>false</ShowRealizedPnLWhenFlat>
+            <SimulatedOrderVolumeTrigger>0</SimulatedOrderVolumeTrigger>
+            <StopLimitOffsetEnabled>false</StopLimitOffsetEnabled>
+            <StopLimitOffsetValue>0</StopLimitOffsetValue>
+            <ActionButtonsBackgroundSerialize>DEFAULT</ActionButtonsBackgroundSerialize>
+            <BuyButtonsBackgroundSerialize>DEFAULT</BuyButtonsBackgroundSerialize>
+            <SellButtonsBackgroundSerialize>DEFAULT</SellButtonsBackgroundSerialize>
+            <LimitSerialize>&lt;Pen Brush="#FF00FFFF" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</LimitSerialize>
+            <MitSerialize>&lt;Pen Brush="#FF00FF7F" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</MitSerialize>
+            <PositionEntryPriceSerialize>&lt;Pen Brush="#FFDEB887" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</PositionEntryPriceSerialize>
+            <ProfitTargetSerialize>&lt;Pen Brush="#FF00FF00" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</ProfitTargetSerialize>
+            <StopLimitSerialize>&lt;Pen Brush="#FFEE82EE" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</StopLimitSerialize>
+            <StopLossSerialize>&lt;Pen Brush="#FFFF0000" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</StopLossSerialize>
+            <StopMarketSerialize>&lt;Pen Brush="#FFFFC0CB" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</StopMarketSerialize>
+          </ChartTraderProperties>
+        </Properties>
+      </ChartTrader>
+    </Chart-5839b462297e4985b270d580a845e6d4>
+    <Chart-15d68317c99b49b7b89fd96ed228bcd3>
+      <Class Assembly="NinjaTrader.Gui">NinjaTrader.Gui.Chart.Chart</Class>
+      <WindowState>Normal</WindowState>
+      <Location>482;713</Location>
+      <Size>485;320</Size>
+      <ZOrder>8</ZOrder>
+      <Topmost>False</Topmost>
+      <TraderWidth>200</TraderWidth>
+      <TabControl>
+        <SelectedIndex>0</SelectedIndex>
+        <Tab-ffd81db87bf642b69e00df5ff4478529>
+          <InstrumentLink>0</InstrumentLink>
+          <IntervalLink>0</IntervalLink>
+          <DataSeries>
+            <BarsProperties>
+              <BarsProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <BarsPeriod>
+                  <BarsPeriodTypeSerialize>5</BarsPeriodTypeSerialize>
+                  <BaseBarsPeriodType>Minute</BaseBarsPeriodType>
+                  <BaseBarsPeriodValue>1</BaseBarsPeriodValue>
+                  <VolumetricDeltaType>BidAsk</VolumetricDeltaType>
+                  <MarketDataType>Last</MarketDataType>
+                  <PointAndFigurePriceType>Close</PointAndFigurePriceType>
+                  <ReversalType>Tick</ReversalType>
+                  <Value>1</Value>
+                  <Value2>1</Value2>
+                </BarsPeriod>
+                <RangeType>Days</RangeType>
+                <BarsBack>50</BarsBack>
+                <DaysBack>365</DaysBack>
+                <From>2020-09-13T00:00:00</From>
+                <IsStableSession>true</IsStableSession>
+                <IsTickReplay>false</IsTickReplay>
+                <To>2099-12-01T00:00:00</To>
+                <TradingHoursSerializable />
+                <AutoScale>true</AutoScale>
+                <CenterPriceOnScale>false</CenterPriceOnScale>
+                <DisplayInDataBox>true</DisplayInDataBox>
+                <Label>NG 09-22</Label>
+                <MaxSerialized>0</MaxSerialized>
+                <MinSerialized>0</MinSerialized>
+                <Panel>0</Panel>
+                <PriceMarker>
+                  <BackgroundSerialize>DEFAULT</BackgroundSerialize>
+                  <IsVisible>true</IsVisible>
+                </PriceMarker>
+                <ShowGlobalDrawObjects>true</ShowGlobalDrawObjects>
+                <ScaleJustification>Right</ScaleJustification>
+                <TradingHoursVisibility>AllSessions</TradingHoursVisibility>
+                <TradingHoursBreakPenSerialize>&lt;Pen Brush="#FF2D2D2F" Thickness="1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</TradingHoursBreakPenSerialize>
+                <LongExecutionBrushSerialize>DEFAULT</LongExecutionBrushSerialize>
+                <PlotExecutions>DoNotPlot</PlotExecutions>
+                <PositionPenLoserSerialize>DEFAULT</PositionPenLoserSerialize>
+                <PositionPenWinnerSerialize>DEFAULT</PositionPenWinnerSerialize>
+                <ShortExecutionBrushSerialize>DEFAULT</ShortExecutionBrushSerialize>
+                <BarsSeriesId>29382ea0e699419c81cfaf5ea4c247e0</BarsSeriesId>
+                <Id>dd2694cb0784458d88a4b660893b0226</Id>
+                <Instrument>NG 09-22</Instrument>
+                <IsLinked>true</IsLinked>
+                <IsPrimarySeries>true</IsPrimarySeries>
+                <ZOrder>1</ZOrder>
+              </BarsProperties>
+              <ChartStyles>
+                <ChartStyle>
+                  <CandleStyle>
+                    <CandleStyle xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                      <IsVisible>true</IsVisible>
+                      <BarWidth>1.5591906046782555</BarWidth>
+                      <ChartStyleTypeSerialize>1</ChartStyleTypeSerialize>
+                      <DownBrushSerialize>DEFAULT</DownBrushSerialize>
+                      <UpBrushSerialize>DEFAULT</UpBrushSerialize>
+                      <StrokeSerialize>DEFAULT</StrokeSerialize>
+                      <Stroke2Serialize>DEFAULT</Stroke2Serialize>
+                    </CandleStyle>
+                  </CandleStyle>
+                </ChartStyle>
+              </ChartStyles>
+            </BarsProperties>
+          </DataSeries>
+          <Strategies />
+          <Indicators />
+          <CrosshairType>Off</CrosshairType>
+          <StayInDrawMode>False</StayInDrawMode>
+          <Properties>
+            <ChartControlProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+              <AlwaysOnTop>false</AlwaysOnTop>
+              <AreTabsVisible>true</AreTabsVisible>
+              <AllowSelectionDragging>true</AllowSelectionDragging>
+              <EquidistantBarSpacing>true</EquidistantBarSpacing>
+              <LabelFont>
+                <Bold>false</Bold>
+                <FamilySerialize>Arial</FamilySerialize>
+                <Italic>false</Italic>
+                <Size>11</Size>
+              </LabelFont>
+              <BarDistance>5.1973033</BarDistance>
+              <BarMarginRightUser>8</BarMarginRightUser>
+              <ChartTraderVisibility>Collapsed</ChartTraderVisibility>
+              <ShowDateRange>false</ShowDateRange>
+              <ShowScrollBar>true</ShowScrollBar>
+              <SnapMode>Bar</SnapMode>
+              <TabName>@INSTRUMENT_FULL</TabName>
+              <LoadBackgroundImage>false</LoadBackgroundImage>
+              <BackgroundImageStretch>Fill</BackgroundImageStretch>
+              <ChartBackgroundSerialize>DEFAULT</ChartBackgroundSerialize>
+              <ChartTextSerialize>DEFAULT</ChartTextSerialize>
+              <CrosshairLabelBackgroundSerialize>DEFAULT</CrosshairLabelBackgroundSerialize>
+              <InactivePriceMarkersBrushSerialize>DEFAULT</InactivePriceMarkersBrushSerialize>
+              <AreHGridLinesVisible>true</AreHGridLinesVisible>
+              <AreVGridLinesVisible>true</AreVGridLinesVisible>
+              <AxisPenSerialize>DEFAULT</AxisPenSerialize>
+              <CrosshairPen>DEFAULT</CrosshairPen>
+              <CrosshairIsLocked>false</CrosshairIsLocked>
+              <CrosshairCrosshairType>Off</CrosshairCrosshairType>
+              <CrosshairDrawCursorOnly>false</CrosshairDrawCursorOnly>
+              <GridLineHPenSerialize>DEFAULT</GridLineHPenSerialize>
+              <GridLineVPenSerialize>DEFAULT</GridLineVPenSerialize>
+              <PanelSplitterPenSerialize>DEFAULT</PanelSplitterPenSerialize>
+            </ChartControlProperties>
+          </Properties>
+          <ChartPanels>
+            <ChartPanel>
+              <Height>210</Height>
+              <HoldChartTraderOrders>false</HoldChartTraderOrders>
+              <IsMaximized>false</IsMaximized>
+              <Right>
+                <ChartScaleProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <YAxisRangeType>Automatic</YAxisRangeType>
+                  <AutoScaleDateRangeType>ScreenDateRange</AutoScaleDateRangeType>
+                  <HorizontalGridlinesCalculation>Automatic</HorizontalGridlinesCalculation>
+                  <HorizontalGridlinesIntervalType>Points</HorizontalGridlinesIntervalType>
+                  <HorizontalGridlinesInterval>0</HorizontalGridlinesInterval>
+                  <AutoScaleMarginType>Percent</AutoScaleMarginType>
+                  <AutoScaleMarginLower>6</AutoScaleMarginLower>
+                  <AutoScaleMarginUpper>6</AutoScaleMarginUpper>
+                  <YAxisScalingType>Linear</YAxisScalingType>
+                  <FixedScaleMaxSerialize>9.664</FixedScaleMaxSerialize>
+                  <FixedScaleMinSerialize>4.556</FixedScaleMinSerialize>
+                </ChartScaleProperties>
+              </Right>
+              <Left>
+                <ChartScaleProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <YAxisRangeType>Automatic</YAxisRangeType>
+                  <AutoScaleDateRangeType>ScreenDateRange</AutoScaleDateRangeType>
+                  <HorizontalGridlinesCalculation>Automatic</HorizontalGridlinesCalculation>
+                  <HorizontalGridlinesIntervalType>Points</HorizontalGridlinesIntervalType>
+                  <HorizontalGridlinesInterval>0</HorizontalGridlinesInterval>
+                  <AutoScaleMarginType>Percent</AutoScaleMarginType>
+                  <AutoScaleMarginLower>6</AutoScaleMarginLower>
+                  <AutoScaleMarginUpper>6</AutoScaleMarginUpper>
+                  <YAxisScalingType>Linear</YAxisScalingType>
+                  <FixedScaleMaxSerialize>0</FixedScaleMaxSerialize>
+                  <FixedScaleMinSerialize>0</FixedScaleMinSerialize>
+                </ChartScaleProperties>
+              </Left>
+              <Overlay>
+                <ChartScaleProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <YAxisRangeType>Automatic</YAxisRangeType>
+                  <AutoScaleDateRangeType>ScreenDateRange</AutoScaleDateRangeType>
+                  <HorizontalGridlinesCalculation>Automatic</HorizontalGridlinesCalculation>
+                  <HorizontalGridlinesIntervalType>Points</HorizontalGridlinesIntervalType>
+                  <HorizontalGridlinesInterval>0</HorizontalGridlinesInterval>
+                  <AutoScaleMarginType>Percent</AutoScaleMarginType>
+                  <AutoScaleMarginLower>6</AutoScaleMarginLower>
+                  <AutoScaleMarginUpper>6</AutoScaleMarginUpper>
+                  <YAxisScalingType>Linear</YAxisScalingType>
+                  <FixedScaleMaxSerialize>0</FixedScaleMaxSerialize>
+                  <FixedScaleMinSerialize>0</FixedScaleMinSerialize>
+                </ChartScaleProperties>
+              </Overlay>
+            </ChartPanel>
+          </ChartPanels>
+          <ChartAlerts />
+          <TabName>@INSTRUMENT_FULL</TabName>
+          <Type>ChartTab</Type>
+        </Tab-ffd81db87bf642b69e00df5ff4478529>
+      </TabControl>
+      <ChartTrader>
+        <Account>Sim101</Account>
+        <ATM></ATM>
+        <Instrument>NG 09-22</Instrument>
+        <Quantity>1</Quantity>
+        <TIF>Day</TIF>
+        <Properties>
+          <ChartTraderProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <AtmStrategySelectionMode>SelectActiveAtmStrategyOnOrderSubmission</AtmStrategySelectionMode>
+            <AutoScale>true</AutoScale>
+            <OrderDisplayBarLength>25</OrderDisplayBarLength>
+            <PnLDisplayUnit>Points</PnLDisplayUnit>
+            <QuantityModificationForStocks>IncreaseQuantity</QuantityModificationForStocks>
+            <ScaleQuantity>0</ScaleQuantity>
+            <ShowRealizedPnLWhenFlat>false</ShowRealizedPnLWhenFlat>
+            <SimulatedOrderVolumeTrigger>0</SimulatedOrderVolumeTrigger>
+            <StopLimitOffsetEnabled>false</StopLimitOffsetEnabled>
+            <StopLimitOffsetValue>0</StopLimitOffsetValue>
+            <ActionButtonsBackgroundSerialize>DEFAULT</ActionButtonsBackgroundSerialize>
+            <BuyButtonsBackgroundSerialize>DEFAULT</BuyButtonsBackgroundSerialize>
+            <SellButtonsBackgroundSerialize>DEFAULT</SellButtonsBackgroundSerialize>
+            <LimitSerialize>&lt;Pen Brush="#FF00FFFF" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</LimitSerialize>
+            <MitSerialize>&lt;Pen Brush="#FF00FF7F" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</MitSerialize>
+            <PositionEntryPriceSerialize>&lt;Pen Brush="#FFDEB887" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</PositionEntryPriceSerialize>
+            <ProfitTargetSerialize>&lt;Pen Brush="#FF00FF00" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</ProfitTargetSerialize>
+            <StopLimitSerialize>&lt;Pen Brush="#FFEE82EE" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</StopLimitSerialize>
+            <StopLossSerialize>&lt;Pen Brush="#FFFF0000" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</StopLossSerialize>
+            <StopMarketSerialize>&lt;Pen Brush="#FFFFC0CB" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</StopMarketSerialize>
+          </ChartTraderProperties>
+        </Properties>
+      </ChartTrader>
+    </Chart-15d68317c99b49b7b89fd96ed228bcd3>
+    <Chart-e427875d9c344d798406d97f2d1d6380>
+      <Class Assembly="NinjaTrader.Gui">NinjaTrader.Gui.Chart.Chart</Class>
+      <WindowState>Normal</WindowState>
+      <Location>8;713</Location>
+      <Size>471;314</Size>
+      <ZOrder>9</ZOrder>
+      <Topmost>False</Topmost>
+      <TraderWidth>200</TraderWidth>
+      <TabControl>
+        <SelectedIndex>0</SelectedIndex>
+        <Tab-919bb51e716a41ddb4d3f936188341b2>
+          <InstrumentLink>0</InstrumentLink>
+          <IntervalLink>0</IntervalLink>
+          <DataSeries>
+            <BarsProperties>
+              <BarsProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <BarsPeriod>
+                  <BarsPeriodTypeSerialize>5</BarsPeriodTypeSerialize>
+                  <BaseBarsPeriodType>Minute</BaseBarsPeriodType>
+                  <BaseBarsPeriodValue>1</BaseBarsPeriodValue>
+                  <VolumetricDeltaType>BidAsk</VolumetricDeltaType>
+                  <MarketDataType>Last</MarketDataType>
+                  <PointAndFigurePriceType>Close</PointAndFigurePriceType>
+                  <ReversalType>Tick</ReversalType>
+                  <Value>1</Value>
+                  <Value2>1</Value2>
+                </BarsPeriod>
+                <RangeType>Days</RangeType>
+                <BarsBack>50</BarsBack>
+                <DaysBack>365</DaysBack>
+                <From>2020-09-13T00:00:00</From>
+                <IsStableSession>true</IsStableSession>
+                <IsTickReplay>false</IsTickReplay>
+                <To>2099-12-01T00:00:00</To>
+                <TradingHoursSerializable />
+                <AutoScale>true</AutoScale>
+                <CenterPriceOnScale>false</CenterPriceOnScale>
+                <DisplayInDataBox>true</DisplayInDataBox>
+                <Label>HG 07-22</Label>
+                <MaxSerialized>0</MaxSerialized>
+                <MinSerialized>0</MinSerialized>
+                <Panel>0</Panel>
+                <PriceMarker>
+                  <BackgroundSerialize>DEFAULT</BackgroundSerialize>
+                  <IsVisible>true</IsVisible>
+                </PriceMarker>
+                <ShowGlobalDrawObjects>true</ShowGlobalDrawObjects>
+                <ScaleJustification>Right</ScaleJustification>
+                <TradingHoursVisibility>AllSessions</TradingHoursVisibility>
+                <TradingHoursBreakPenSerialize>&lt;Pen Brush="#FF2D2D2F" Thickness="1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</TradingHoursBreakPenSerialize>
+                <LongExecutionBrushSerialize>DEFAULT</LongExecutionBrushSerialize>
+                <PlotExecutions>DoNotPlot</PlotExecutions>
+                <PositionPenLoserSerialize>DEFAULT</PositionPenLoserSerialize>
+                <PositionPenWinnerSerialize>DEFAULT</PositionPenWinnerSerialize>
+                <ShortExecutionBrushSerialize>DEFAULT</ShortExecutionBrushSerialize>
+                <BarsSeriesId>b3c126c34b30493693f226c8b78bb09b</BarsSeriesId>
+                <Id>50925f94447f4230bd99c0c90414b9e2</Id>
+                <Instrument>HG 07-22</Instrument>
+                <IsLinked>true</IsLinked>
+                <IsPrimarySeries>true</IsPrimarySeries>
+                <ZOrder>1</ZOrder>
+              </BarsProperties>
+              <ChartStyles>
+                <ChartStyle>
+                  <CandleStyle>
+                    <CandleStyle xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                      <IsVisible>true</IsVisible>
+                      <BarWidth>2.0610123153634876</BarWidth>
+                      <ChartStyleTypeSerialize>1</ChartStyleTypeSerialize>
+                      <DownBrushSerialize>DEFAULT</DownBrushSerialize>
+                      <UpBrushSerialize>DEFAULT</UpBrushSerialize>
+                      <StrokeSerialize>DEFAULT</StrokeSerialize>
+                      <Stroke2Serialize>DEFAULT</Stroke2Serialize>
+                    </CandleStyle>
+                  </CandleStyle>
+                </ChartStyle>
+              </ChartStyles>
+            </BarsProperties>
+          </DataSeries>
+          <Strategies />
+          <Indicators />
+          <CrosshairType>Local</CrosshairType>
+          <StayInDrawMode>False</StayInDrawMode>
+          <Properties>
+            <ChartControlProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+              <AlwaysOnTop>false</AlwaysOnTop>
+              <AreTabsVisible>true</AreTabsVisible>
+              <AllowSelectionDragging>true</AllowSelectionDragging>
+              <EquidistantBarSpacing>true</EquidistantBarSpacing>
+              <LabelFont>
+                <Bold>false</Bold>
+                <FamilySerialize>Arial</FamilySerialize>
+                <Italic>false</Italic>
+                <Size>11</Size>
+              </LabelFont>
+              <BarDistance>6.870043</BarDistance>
+              <BarMarginRightUser>8</BarMarginRightUser>
+              <ChartTraderVisibility>Collapsed</ChartTraderVisibility>
+              <ShowDateRange>false</ShowDateRange>
+              <ShowScrollBar>true</ShowScrollBar>
+              <SnapMode>Bar</SnapMode>
+              <TabName>@INSTRUMENT_FULL</TabName>
+              <LoadBackgroundImage>false</LoadBackgroundImage>
+              <BackgroundImageStretch>Fill</BackgroundImageStretch>
+              <ChartBackgroundSerialize>DEFAULT</ChartBackgroundSerialize>
+              <ChartTextSerialize>DEFAULT</ChartTextSerialize>
+              <CrosshairLabelBackgroundSerialize>DEFAULT</CrosshairLabelBackgroundSerialize>
+              <InactivePriceMarkersBrushSerialize>DEFAULT</InactivePriceMarkersBrushSerialize>
+              <AreHGridLinesVisible>true</AreHGridLinesVisible>
+              <AreVGridLinesVisible>true</AreVGridLinesVisible>
+              <AxisPenSerialize>DEFAULT</AxisPenSerialize>
+              <CrosshairPen>DEFAULT</CrosshairPen>
+              <CrosshairIsLocked>false</CrosshairIsLocked>
+              <CrosshairCrosshairType>Local</CrosshairCrosshairType>
+              <CrosshairDrawCursorOnly>false</CrosshairDrawCursorOnly>
+              <GridLineHPenSerialize>DEFAULT</GridLineHPenSerialize>
+              <GridLineVPenSerialize>DEFAULT</GridLineVPenSerialize>
+              <PanelSplitterPenSerialize>DEFAULT</PanelSplitterPenSerialize>
+            </ChartControlProperties>
+          </Properties>
+          <ChartPanels>
+            <ChartPanel>
+              <Height>204</Height>
+              <HoldChartTraderOrders>false</HoldChartTraderOrders>
+              <IsMaximized>false</IsMaximized>
+              <Right>
+                <ChartScaleProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <YAxisRangeType>Automatic</YAxisRangeType>
+                  <AutoScaleDateRangeType>ScreenDateRange</AutoScaleDateRangeType>
+                  <HorizontalGridlinesCalculation>Automatic</HorizontalGridlinesCalculation>
+                  <HorizontalGridlinesIntervalType>Points</HorizontalGridlinesIntervalType>
+                  <HorizontalGridlinesInterval>0</HorizontalGridlinesInterval>
+                  <AutoScaleMarginType>Percent</AutoScaleMarginType>
+                  <AutoScaleMarginLower>6</AutoScaleMarginLower>
+                  <AutoScaleMarginUpper>6</AutoScaleMarginUpper>
+                  <YAxisScalingType>Linear</YAxisScalingType>
+                  <FixedScaleMaxSerialize>4.88</FixedScaleMaxSerialize>
+                  <FixedScaleMinSerialize>4.037</FixedScaleMinSerialize>
+                </ChartScaleProperties>
+              </Right>
+              <Left>
+                <ChartScaleProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <YAxisRangeType>Automatic</YAxisRangeType>
+                  <AutoScaleDateRangeType>ScreenDateRange</AutoScaleDateRangeType>
+                  <HorizontalGridlinesCalculation>Automatic</HorizontalGridlinesCalculation>
+                  <HorizontalGridlinesIntervalType>Points</HorizontalGridlinesIntervalType>
+                  <HorizontalGridlinesInterval>0</HorizontalGridlinesInterval>
+                  <AutoScaleMarginType>Percent</AutoScaleMarginType>
+                  <AutoScaleMarginLower>6</AutoScaleMarginLower>
+                  <AutoScaleMarginUpper>6</AutoScaleMarginUpper>
+                  <YAxisScalingType>Linear</YAxisScalingType>
+                  <FixedScaleMaxSerialize>0</FixedScaleMaxSerialize>
+                  <FixedScaleMinSerialize>0</FixedScaleMinSerialize>
+                </ChartScaleProperties>
+              </Left>
+              <Overlay>
+                <ChartScaleProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <YAxisRangeType>Automatic</YAxisRangeType>
+                  <AutoScaleDateRangeType>ScreenDateRange</AutoScaleDateRangeType>
+                  <HorizontalGridlinesCalculation>Automatic</HorizontalGridlinesCalculation>
+                  <HorizontalGridlinesIntervalType>Points</HorizontalGridlinesIntervalType>
+                  <HorizontalGridlinesInterval>0</HorizontalGridlinesInterval>
+                  <AutoScaleMarginType>Percent</AutoScaleMarginType>
+                  <AutoScaleMarginLower>6</AutoScaleMarginLower>
+                  <AutoScaleMarginUpper>6</AutoScaleMarginUpper>
+                  <YAxisScalingType>Linear</YAxisScalingType>
+                  <FixedScaleMaxSerialize>0</FixedScaleMaxSerialize>
+                  <FixedScaleMinSerialize>0</FixedScaleMinSerialize>
+                </ChartScaleProperties>
+              </Overlay>
+            </ChartPanel>
+          </ChartPanels>
+          <ChartAlerts />
+          <TabName>@INSTRUMENT_FULL</TabName>
+          <Type>ChartTab</Type>
+        </Tab-919bb51e716a41ddb4d3f936188341b2>
+      </TabControl>
+      <ChartTrader>
+        <Account>Sim101</Account>
+        <ATM></ATM>
+        <Instrument>HG 07-22</Instrument>
+        <Quantity>1</Quantity>
+        <TIF>Day</TIF>
+        <Properties>
+          <ChartTraderProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <AtmStrategySelectionMode>SelectActiveAtmStrategyOnOrderSubmission</AtmStrategySelectionMode>
+            <AutoScale>true</AutoScale>
+            <OrderDisplayBarLength>25</OrderDisplayBarLength>
+            <PnLDisplayUnit>Points</PnLDisplayUnit>
+            <QuantityModificationForStocks>IncreaseQuantity</QuantityModificationForStocks>
+            <ScaleQuantity>0</ScaleQuantity>
+            <ShowRealizedPnLWhenFlat>false</ShowRealizedPnLWhenFlat>
+            <SimulatedOrderVolumeTrigger>0</SimulatedOrderVolumeTrigger>
+            <StopLimitOffsetEnabled>false</StopLimitOffsetEnabled>
+            <StopLimitOffsetValue>0</StopLimitOffsetValue>
+            <ActionButtonsBackgroundSerialize>DEFAULT</ActionButtonsBackgroundSerialize>
+            <BuyButtonsBackgroundSerialize>DEFAULT</BuyButtonsBackgroundSerialize>
+            <SellButtonsBackgroundSerialize>DEFAULT</SellButtonsBackgroundSerialize>
+            <LimitSerialize>&lt;Pen Brush="#FF00FFFF" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</LimitSerialize>
+            <MitSerialize>&lt;Pen Brush="#FF00FF7F" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</MitSerialize>
+            <PositionEntryPriceSerialize>&lt;Pen Brush="#FFDEB887" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</PositionEntryPriceSerialize>
+            <ProfitTargetSerialize>&lt;Pen Brush="#FF00FF00" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</ProfitTargetSerialize>
+            <StopLimitSerialize>&lt;Pen Brush="#FFEE82EE" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</StopLimitSerialize>
+            <StopLossSerialize>&lt;Pen Brush="#FFFF0000" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</StopLossSerialize>
+            <StopMarketSerialize>&lt;Pen Brush="#FFFFC0CB" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</StopMarketSerialize>
+          </ChartTraderProperties>
+        </Properties>
+      </ChartTrader>
+    </Chart-e427875d9c344d798406d97f2d1d6380>
+    <Chart-12d1899e61474dc49c67bfdccb69a79f>
+      <Class Assembly="NinjaTrader.Gui">NinjaTrader.Gui.Chart.Chart</Class>
+      <WindowState>Normal</WindowState>
+      <Location>968;712</Location>
+      <Size>479;319</Size>
+      <ZOrder>10</ZOrder>
+      <Topmost>False</Topmost>
+      <TraderWidth>200</TraderWidth>
+      <TabControl>
+        <SelectedIndex>0</SelectedIndex>
+        <Tab-f35d5ca03cc1408a99eeee68093631ae>
+          <InstrumentLink>0</InstrumentLink>
+          <IntervalLink>0</IntervalLink>
+          <DataSeries>
+            <BarsProperties>
+              <BarsProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <BarsPeriod>
+                  <BarsPeriodTypeSerialize>5</BarsPeriodTypeSerialize>
+                  <BaseBarsPeriodType>Minute</BaseBarsPeriodType>
+                  <BaseBarsPeriodValue>1</BaseBarsPeriodValue>
+                  <VolumetricDeltaType>BidAsk</VolumetricDeltaType>
+                  <MarketDataType>Last</MarketDataType>
+                  <PointAndFigurePriceType>Close</PointAndFigurePriceType>
+                  <ReversalType>Tick</ReversalType>
+                  <Value>1</Value>
+                  <Value2>1</Value2>
+                </BarsPeriod>
+                <RangeType>Days</RangeType>
+                <BarsBack>50</BarsBack>
+                <DaysBack>380</DaysBack>
+                <From>2020-09-13T00:00:00</From>
+                <IsStableSession>true</IsStableSession>
+                <IsTickReplay>false</IsTickReplay>
+                <To>2099-12-01T00:00:00</To>
+                <TradingHoursSerializable />
+                <AutoScale>true</AutoScale>
+                <CenterPriceOnScale>false</CenterPriceOnScale>
+                <DisplayInDataBox>true</DisplayInDataBox>
+                <Label>6E 09-22</Label>
+                <MaxSerialized>0</MaxSerialized>
+                <MinSerialized>0</MinSerialized>
+                <Panel>0</Panel>
+                <PriceMarker>
+                  <BackgroundSerialize>DEFAULT</BackgroundSerialize>
+                  <IsVisible>true</IsVisible>
+                </PriceMarker>
+                <ShowGlobalDrawObjects>true</ShowGlobalDrawObjects>
+                <ScaleJustification>Right</ScaleJustification>
+                <TradingHoursVisibility>AllSessions</TradingHoursVisibility>
+                <TradingHoursBreakPenSerialize>&lt;Pen Brush="#FF2D2D2F" Thickness="1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</TradingHoursBreakPenSerialize>
+                <LongExecutionBrushSerialize>DEFAULT</LongExecutionBrushSerialize>
+                <PlotExecutions>DoNotPlot</PlotExecutions>
+                <PositionPenLoserSerialize>DEFAULT</PositionPenLoserSerialize>
+                <PositionPenWinnerSerialize>DEFAULT</PositionPenWinnerSerialize>
+                <ShortExecutionBrushSerialize>DEFAULT</ShortExecutionBrushSerialize>
+                <BarsSeriesId>c55fedc7a1524c1ea55d649c2572a358</BarsSeriesId>
+                <Id>c55fedc7a1524c1ea55d649c2572a358</Id>
+                <Instrument>6E 09-22</Instrument>
+                <IsLinked>true</IsLinked>
+                <IsPrimarySeries>true</IsPrimarySeries>
+                <ZOrder>1</ZOrder>
+              </BarsProperties>
+              <ChartStyles>
+                <ChartStyle>
+                  <CandleStyle>
+                    <CandleStyle xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                      <IsVisible>true</IsVisible>
+                      <BarWidth>1.7698040771166714</BarWidth>
+                      <ChartStyleTypeSerialize>1</ChartStyleTypeSerialize>
+                      <DownBrushSerialize>DEFAULT</DownBrushSerialize>
+                      <UpBrushSerialize>DEFAULT</UpBrushSerialize>
+                      <StrokeSerialize>DEFAULT</StrokeSerialize>
+                      <Stroke2Serialize>DEFAULT</Stroke2Serialize>
+                    </CandleStyle>
+                  </CandleStyle>
+                </ChartStyle>
+              </ChartStyles>
+            </BarsProperties>
+          </DataSeries>
+          <Strategies />
+          <Indicators />
+          <CrosshairType>Local</CrosshairType>
+          <StayInDrawMode>False</StayInDrawMode>
+          <Properties>
+            <ChartControlProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+              <AlwaysOnTop>false</AlwaysOnTop>
+              <AreTabsVisible>true</AreTabsVisible>
+              <AllowSelectionDragging>true</AllowSelectionDragging>
+              <EquidistantBarSpacing>true</EquidistantBarSpacing>
+              <LabelFont>
+                <Bold>false</Bold>
+                <FamilySerialize>Arial</FamilySerialize>
+                <Italic>false</Italic>
+                <Size>11</Size>
+              </LabelFont>
+              <BarDistance>5.899348</BarDistance>
+              <BarMarginRightUser>8</BarMarginRightUser>
+              <ChartTraderVisibility>Collapsed</ChartTraderVisibility>
+              <ShowDateRange>false</ShowDateRange>
+              <ShowScrollBar>true</ShowScrollBar>
+              <SnapMode>Bar</SnapMode>
+              <TabName>@INSTRUMENT_FULL</TabName>
+              <LoadBackgroundImage>false</LoadBackgroundImage>
+              <BackgroundImageStretch>Fill</BackgroundImageStretch>
+              <ChartBackgroundSerialize>DEFAULT</ChartBackgroundSerialize>
+              <ChartTextSerialize>DEFAULT</ChartTextSerialize>
+              <CrosshairLabelBackgroundSerialize>DEFAULT</CrosshairLabelBackgroundSerialize>
+              <InactivePriceMarkersBrushSerialize>DEFAULT</InactivePriceMarkersBrushSerialize>
+              <AreHGridLinesVisible>true</AreHGridLinesVisible>
+              <AreVGridLinesVisible>true</AreVGridLinesVisible>
+              <AxisPenSerialize>DEFAULT</AxisPenSerialize>
+              <CrosshairPen>DEFAULT</CrosshairPen>
+              <CrosshairIsLocked>false</CrosshairIsLocked>
+              <CrosshairCrosshairType>Local</CrosshairCrosshairType>
+              <CrosshairDrawCursorOnly>false</CrosshairDrawCursorOnly>
+              <GridLineHPenSerialize>DEFAULT</GridLineHPenSerialize>
+              <GridLineVPenSerialize>DEFAULT</GridLineVPenSerialize>
+              <PanelSplitterPenSerialize>DEFAULT</PanelSplitterPenSerialize>
+            </ChartControlProperties>
+          </Properties>
+          <ChartPanels>
+            <ChartPanel>
+              <Height>209</Height>
+              <HoldChartTraderOrders>false</HoldChartTraderOrders>
+              <IsMaximized>false</IsMaximized>
+              <Right>
+                <ChartScaleProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <YAxisRangeType>Automatic</YAxisRangeType>
+                  <AutoScaleDateRangeType>ScreenDateRange</AutoScaleDateRangeType>
+                  <HorizontalGridlinesCalculation>Automatic</HorizontalGridlinesCalculation>
+                  <HorizontalGridlinesIntervalType>Points</HorizontalGridlinesIntervalType>
+                  <HorizontalGridlinesInterval>0</HorizontalGridlinesInterval>
+                  <AutoScaleMarginType>Percent</AutoScaleMarginType>
+                  <AutoScaleMarginLower>6</AutoScaleMarginLower>
+                  <AutoScaleMarginUpper>6</AutoScaleMarginUpper>
+                  <YAxisScalingType>Linear</YAxisScalingType>
+                  <FixedScaleMaxSerialize>1.12765</FixedScaleMaxSerialize>
+                  <FixedScaleMinSerialize>1.0422500000000001</FixedScaleMinSerialize>
+                </ChartScaleProperties>
+              </Right>
+              <Left>
+                <ChartScaleProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <YAxisRangeType>Automatic</YAxisRangeType>
+                  <AutoScaleDateRangeType>ScreenDateRange</AutoScaleDateRangeType>
+                  <HorizontalGridlinesCalculation>Automatic</HorizontalGridlinesCalculation>
+                  <HorizontalGridlinesIntervalType>Points</HorizontalGridlinesIntervalType>
+                  <HorizontalGridlinesInterval>0</HorizontalGridlinesInterval>
+                  <AutoScaleMarginType>Percent</AutoScaleMarginType>
+                  <AutoScaleMarginLower>6</AutoScaleMarginLower>
+                  <AutoScaleMarginUpper>6</AutoScaleMarginUpper>
+                  <YAxisScalingType>Linear</YAxisScalingType>
+                  <FixedScaleMaxSerialize>0</FixedScaleMaxSerialize>
+                  <FixedScaleMinSerialize>0</FixedScaleMinSerialize>
+                </ChartScaleProperties>
+              </Left>
+              <Overlay>
+                <ChartScaleProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <YAxisRangeType>Automatic</YAxisRangeType>
+                  <AutoScaleDateRangeType>ScreenDateRange</AutoScaleDateRangeType>
+                  <HorizontalGridlinesCalculation>Automatic</HorizontalGridlinesCalculation>
+                  <HorizontalGridlinesIntervalType>Points</HorizontalGridlinesIntervalType>
+                  <HorizontalGridlinesInterval>0</HorizontalGridlinesInterval>
+                  <AutoScaleMarginType>Percent</AutoScaleMarginType>
+                  <AutoScaleMarginLower>6</AutoScaleMarginLower>
+                  <AutoScaleMarginUpper>6</AutoScaleMarginUpper>
+                  <YAxisScalingType>Linear</YAxisScalingType>
+                  <FixedScaleMaxSerialize>0</FixedScaleMaxSerialize>
+                  <FixedScaleMinSerialize>0</FixedScaleMinSerialize>
+                </ChartScaleProperties>
+              </Overlay>
+            </ChartPanel>
+          </ChartPanels>
+          <ChartAlerts />
+          <TabName>@INSTRUMENT_FULL</TabName>
+          <Type>ChartTab</Type>
+        </Tab-f35d5ca03cc1408a99eeee68093631ae>
+      </TabControl>
+      <ChartTrader>
+        <Account>Sim101</Account>
+        <ATM></ATM>
+        <Instrument>6E 09-22</Instrument>
+        <Quantity>1</Quantity>
+        <TIF>Day</TIF>
+        <Properties>
+          <ChartTraderProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <AtmStrategySelectionMode>SelectActiveAtmStrategyOnOrderSubmission</AtmStrategySelectionMode>
+            <AutoScale>true</AutoScale>
+            <OrderDisplayBarLength>25</OrderDisplayBarLength>
+            <PnLDisplayUnit>Points</PnLDisplayUnit>
+            <QuantityModificationForStocks>IncreaseQuantity</QuantityModificationForStocks>
+            <ScaleQuantity>0</ScaleQuantity>
+            <ShowRealizedPnLWhenFlat>false</ShowRealizedPnLWhenFlat>
+            <SimulatedOrderVolumeTrigger>0</SimulatedOrderVolumeTrigger>
+            <StopLimitOffsetEnabled>false</StopLimitOffsetEnabled>
+            <StopLimitOffsetValue>0</StopLimitOffsetValue>
+            <ActionButtonsBackgroundSerialize>DEFAULT</ActionButtonsBackgroundSerialize>
+            <BuyButtonsBackgroundSerialize>DEFAULT</BuyButtonsBackgroundSerialize>
+            <SellButtonsBackgroundSerialize>DEFAULT</SellButtonsBackgroundSerialize>
+            <LimitSerialize>&lt;Pen Brush="#FF00FFFF" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</LimitSerialize>
+            <MitSerialize>&lt;Pen Brush="#FF00FF7F" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</MitSerialize>
+            <PositionEntryPriceSerialize>&lt;Pen Brush="#FFDEB887" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</PositionEntryPriceSerialize>
+            <ProfitTargetSerialize>&lt;Pen Brush="#FF00FF00" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</ProfitTargetSerialize>
+            <StopLimitSerialize>&lt;Pen Brush="#FFEE82EE" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</StopLimitSerialize>
+            <StopLossSerialize>&lt;Pen Brush="#FFFF0000" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</StopLossSerialize>
+            <StopMarketSerialize>&lt;Pen Brush="#FFFFC0CB" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</StopMarketSerialize>
+          </ChartTraderProperties>
+        </Properties>
+      </ChartTrader>
+    </Chart-12d1899e61474dc49c67bfdccb69a79f>
+    <Chart-f800b913f2ad4f98aa63265c3e3d1b85>
+      <Class Assembly="NinjaTrader.Gui">NinjaTrader.Gui.Chart.Chart</Class>
+      <WindowState>Normal</WindowState>
+      <Location>1452;714</Location>
+      <Size>464;315</Size>
+      <ZOrder>11</ZOrder>
+      <Topmost>False</Topmost>
+      <TraderWidth>200</TraderWidth>
+      <TabControl>
+        <SelectedIndex>0</SelectedIndex>
+        <Tab-6d24de0d71f347bbaa0db381a25553ec>
+          <InstrumentLink>0</InstrumentLink>
+          <IntervalLink>0</IntervalLink>
+          <DataSeries>
+            <BarsProperties>
+              <BarsProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <BarsPeriod>
+                  <BarsPeriodTypeSerialize>5</BarsPeriodTypeSerialize>
+                  <BaseBarsPeriodType>Minute</BaseBarsPeriodType>
+                  <BaseBarsPeriodValue>1</BaseBarsPeriodValue>
+                  <VolumetricDeltaType>BidAsk</VolumetricDeltaType>
+                  <MarketDataType>Last</MarketDataType>
+                  <PointAndFigurePriceType>Close</PointAndFigurePriceType>
+                  <ReversalType>Tick</ReversalType>
+                  <Value>1</Value>
+                  <Value2>1</Value2>
+                </BarsPeriod>
+                <RangeType>Days</RangeType>
+                <BarsBack>50</BarsBack>
+                <DaysBack>365</DaysBack>
+                <From>2020-09-13T00:00:00</From>
+                <IsStableSession>true</IsStableSession>
+                <IsTickReplay>false</IsTickReplay>
+                <To>2099-12-01T00:00:00</To>
+                <TradingHoursSerializable />
+                <AutoScale>true</AutoScale>
+                <CenterPriceOnScale>false</CenterPriceOnScale>
+                <DisplayInDataBox>true</DisplayInDataBox>
+                <Label>ZB 09-22</Label>
+                <MaxSerialized>0</MaxSerialized>
+                <MinSerialized>0</MinSerialized>
+                <Panel>0</Panel>
+                <PriceMarker>
+                  <BackgroundSerialize>DEFAULT</BackgroundSerialize>
+                  <IsVisible>true</IsVisible>
+                </PriceMarker>
+                <ShowGlobalDrawObjects>true</ShowGlobalDrawObjects>
+                <ScaleJustification>Right</ScaleJustification>
+                <TradingHoursVisibility>AllSessions</TradingHoursVisibility>
+                <TradingHoursBreakPenSerialize>&lt;Pen Brush="#FF2D2D2F" Thickness="1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</TradingHoursBreakPenSerialize>
+                <LongExecutionBrushSerialize>DEFAULT</LongExecutionBrushSerialize>
+                <PlotExecutions>DoNotPlot</PlotExecutions>
+                <PositionPenLoserSerialize>DEFAULT</PositionPenLoserSerialize>
+                <PositionPenWinnerSerialize>DEFAULT</PositionPenWinnerSerialize>
+                <ShortExecutionBrushSerialize>DEFAULT</ShortExecutionBrushSerialize>
+                <BarsSeriesId>29382ea0e699419c81cfaf5ea4c247e0</BarsSeriesId>
+                <Id>29382ea0e699419c81cfaf5ea4c247e0</Id>
+                <Instrument>ZB 09-22</Instrument>
+                <IsLinked>true</IsLinked>
+                <IsPrimarySeries>true</IsPrimarySeries>
+                <ZOrder>1</ZOrder>
+              </BarsProperties>
+              <ChartStyles>
+                <ChartStyle>
+                  <CandleStyle>
+                    <CandleStyle xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                      <IsVisible>true</IsVisible>
+                      <BarWidth>1.5591906046782555</BarWidth>
+                      <ChartStyleTypeSerialize>1</ChartStyleTypeSerialize>
+                      <DownBrushSerialize>DEFAULT</DownBrushSerialize>
+                      <UpBrushSerialize>DEFAULT</UpBrushSerialize>
+                      <StrokeSerialize>DEFAULT</StrokeSerialize>
+                      <Stroke2Serialize>DEFAULT</Stroke2Serialize>
+                    </CandleStyle>
+                  </CandleStyle>
+                </ChartStyle>
+              </ChartStyles>
+            </BarsProperties>
+          </DataSeries>
+          <Strategies />
+          <Indicators />
+          <CrosshairType>Off</CrosshairType>
+          <StayInDrawMode>False</StayInDrawMode>
+          <Properties>
+            <ChartControlProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+              <AlwaysOnTop>false</AlwaysOnTop>
+              <AreTabsVisible>true</AreTabsVisible>
+              <AllowSelectionDragging>true</AllowSelectionDragging>
+              <EquidistantBarSpacing>true</EquidistantBarSpacing>
+              <LabelFont>
+                <Bold>false</Bold>
+                <FamilySerialize>Arial</FamilySerialize>
+                <Italic>false</Italic>
+                <Size>11</Size>
+              </LabelFont>
+              <BarDistance>5.1973033</BarDistance>
+              <BarMarginRightUser>8</BarMarginRightUser>
+              <ChartTraderVisibility>Collapsed</ChartTraderVisibility>
+              <ShowDateRange>false</ShowDateRange>
+              <ShowScrollBar>true</ShowScrollBar>
+              <SnapMode>Bar</SnapMode>
+              <TabName>@INSTRUMENT_FULL</TabName>
+              <LoadBackgroundImage>false</LoadBackgroundImage>
+              <BackgroundImageStretch>Fill</BackgroundImageStretch>
+              <ChartBackgroundSerialize>DEFAULT</ChartBackgroundSerialize>
+              <ChartTextSerialize>DEFAULT</ChartTextSerialize>
+              <CrosshairLabelBackgroundSerialize>DEFAULT</CrosshairLabelBackgroundSerialize>
+              <InactivePriceMarkersBrushSerialize>DEFAULT</InactivePriceMarkersBrushSerialize>
+              <AreHGridLinesVisible>true</AreHGridLinesVisible>
+              <AreVGridLinesVisible>true</AreVGridLinesVisible>
+              <AxisPenSerialize>DEFAULT</AxisPenSerialize>
+              <CrosshairPen>DEFAULT</CrosshairPen>
+              <CrosshairIsLocked>false</CrosshairIsLocked>
+              <CrosshairCrosshairType>Off</CrosshairCrosshairType>
+              <CrosshairDrawCursorOnly>false</CrosshairDrawCursorOnly>
+              <GridLineHPenSerialize>DEFAULT</GridLineHPenSerialize>
+              <GridLineVPenSerialize>DEFAULT</GridLineVPenSerialize>
+              <PanelSplitterPenSerialize>DEFAULT</PanelSplitterPenSerialize>
+            </ChartControlProperties>
+          </Properties>
+          <ChartPanels>
+            <ChartPanel>
+              <Height>205</Height>
+              <HoldChartTraderOrders>false</HoldChartTraderOrders>
+              <IsMaximized>false</IsMaximized>
+              <Right>
+                <ChartScaleProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <YAxisRangeType>Automatic</YAxisRangeType>
+                  <AutoScaleDateRangeType>ScreenDateRange</AutoScaleDateRangeType>
+                  <HorizontalGridlinesCalculation>Automatic</HorizontalGridlinesCalculation>
+                  <HorizontalGridlinesIntervalType>Points</HorizontalGridlinesIntervalType>
+                  <HorizontalGridlinesInterval>0</HorizontalGridlinesInterval>
+                  <AutoScaleMarginType>Percent</AutoScaleMarginType>
+                  <AutoScaleMarginLower>6</AutoScaleMarginLower>
+                  <AutoScaleMarginUpper>6</AutoScaleMarginUpper>
+                  <YAxisScalingType>Linear</YAxisScalingType>
+                  <FixedScaleMaxSerialize>159.40625</FixedScaleMaxSerialize>
+                  <FixedScaleMinSerialize>131.34375</FixedScaleMinSerialize>
+                </ChartScaleProperties>
+              </Right>
+              <Left>
+                <ChartScaleProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <YAxisRangeType>Automatic</YAxisRangeType>
+                  <AutoScaleDateRangeType>ScreenDateRange</AutoScaleDateRangeType>
+                  <HorizontalGridlinesCalculation>Automatic</HorizontalGridlinesCalculation>
+                  <HorizontalGridlinesIntervalType>Points</HorizontalGridlinesIntervalType>
+                  <HorizontalGridlinesInterval>0</HorizontalGridlinesInterval>
+                  <AutoScaleMarginType>Percent</AutoScaleMarginType>
+                  <AutoScaleMarginLower>6</AutoScaleMarginLower>
+                  <AutoScaleMarginUpper>6</AutoScaleMarginUpper>
+                  <YAxisScalingType>Linear</YAxisScalingType>
+                  <FixedScaleMaxSerialize>0</FixedScaleMaxSerialize>
+                  <FixedScaleMinSerialize>0</FixedScaleMinSerialize>
+                </ChartScaleProperties>
+              </Left>
+              <Overlay>
+                <ChartScaleProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                  <YAxisRangeType>Automatic</YAxisRangeType>
+                  <AutoScaleDateRangeType>ScreenDateRange</AutoScaleDateRangeType>
+                  <HorizontalGridlinesCalculation>Automatic</HorizontalGridlinesCalculation>
+                  <HorizontalGridlinesIntervalType>Points</HorizontalGridlinesIntervalType>
+                  <HorizontalGridlinesInterval>0</HorizontalGridlinesInterval>
+                  <AutoScaleMarginType>Percent</AutoScaleMarginType>
+                  <AutoScaleMarginLower>6</AutoScaleMarginLower>
+                  <AutoScaleMarginUpper>6</AutoScaleMarginUpper>
+                  <YAxisScalingType>Linear</YAxisScalingType>
+                  <FixedScaleMaxSerialize>0</FixedScaleMaxSerialize>
+                  <FixedScaleMinSerialize>0</FixedScaleMinSerialize>
+                </ChartScaleProperties>
+              </Overlay>
+            </ChartPanel>
+          </ChartPanels>
+          <ChartAlerts />
+          <TabName>@INSTRUMENT_FULL</TabName>
+          <Type>ChartTab</Type>
+        </Tab-6d24de0d71f347bbaa0db381a25553ec>
+      </TabControl>
+      <ChartTrader>
+        <Account>Sim101</Account>
+        <ATM></ATM>
+        <Instrument>ZB 09-22</Instrument>
+        <Quantity>1</Quantity>
+        <TIF>Day</TIF>
+        <Properties>
+          <ChartTraderProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <AtmStrategySelectionMode>SelectActiveAtmStrategyOnOrderSubmission</AtmStrategySelectionMode>
+            <AutoScale>true</AutoScale>
+            <OrderDisplayBarLength>25</OrderDisplayBarLength>
+            <PnLDisplayUnit>Points</PnLDisplayUnit>
+            <QuantityModificationForStocks>IncreaseQuantity</QuantityModificationForStocks>
+            <ScaleQuantity>0</ScaleQuantity>
+            <ShowRealizedPnLWhenFlat>false</ShowRealizedPnLWhenFlat>
+            <SimulatedOrderVolumeTrigger>0</SimulatedOrderVolumeTrigger>
+            <StopLimitOffsetEnabled>false</StopLimitOffsetEnabled>
+            <StopLimitOffsetValue>0</StopLimitOffsetValue>
+            <ActionButtonsBackgroundSerialize>DEFAULT</ActionButtonsBackgroundSerialize>
+            <BuyButtonsBackgroundSerialize>DEFAULT</BuyButtonsBackgroundSerialize>
+            <SellButtonsBackgroundSerialize>DEFAULT</SellButtonsBackgroundSerialize>
+            <LimitSerialize>&lt;Pen Brush="#FF00FFFF" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</LimitSerialize>
+            <MitSerialize>&lt;Pen Brush="#FF00FF7F" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</MitSerialize>
+            <PositionEntryPriceSerialize>&lt;Pen Brush="#FFDEB887" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</PositionEntryPriceSerialize>
+            <ProfitTargetSerialize>&lt;Pen Brush="#FF00FF00" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</ProfitTargetSerialize>
+            <StopLimitSerialize>&lt;Pen Brush="#FFEE82EE" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</StopLimitSerialize>
+            <StopLossSerialize>&lt;Pen Brush="#FFFF0000" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</StopLossSerialize>
+            <StopMarketSerialize>&lt;Pen Brush="#FFFFC0CB" Thickness="2" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&gt;
+  &lt;Pen.DashStyle&gt;
+    &lt;DashStyle /&gt;
+  &lt;/Pen.DashStyle&gt;
+&lt;/Pen&gt;</StopMarketSerialize>
+          </ChartTraderProperties>
+        </Properties>
+      </ChartTrader>
+    </Chart-f800b913f2ad4f98aa63265c3e3d1b85>
+  </NTWindows>
+</NinjaTrader>
